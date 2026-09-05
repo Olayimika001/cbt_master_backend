@@ -28,7 +28,7 @@ ENV NODE_ENV=production
 # Install only production dependencies
 COPY package*.json ./
 COPY prisma ./prisma/
-RUN npm ci --omit=dev && npx prisma generate
+RUN npm ci --omit=dev
 
 # Copy compiled files and data from builder
 COPY --from=builder /app/dist ./dist
