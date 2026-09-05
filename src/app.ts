@@ -32,6 +32,33 @@ app.use(express.urlencoded({ extended: true }));
 // HTTP Request Logging
 app.use(pinoHttp({ logger }));
 
+// Health Check Handler (Liveness & Readiness)
+const handleHealth = async (_req: express.Request, res: express.Response) => {
+  let dbStatus = 'healthy';
+  try {
+    // 2-second timeout probe to avoid hanging orchestrator checks
+    await Promise.race([
+      prisma.$queryRaw`SELECT 1`,
+      new Promise((_, reject) => setTimeout(() => reject(new Error('DB health probe timeout')), 2000)),
+    ]);
+  } catch (error: any) {
+    dbStatus = 'unhealthy';
+    logger.warn({ err: error.message }, 'Database health check probe failed or timed out');
+  }
+
+  const isHealthy = dbStatus === 'healthy';
+  // Return HTTP 200 so orchestrators (Railway/Render) do not kill the container on initial cold starts
+  res.status(200).json({
+    status: isHealthy ? 'healthy' : 'degraded',
+    database: dbStatus,
+    timestamp: new Date().toISOString(),
+    uptime: process.uptime(),
+  });
+};
+
+// Root health check endpoint (mounted before rate limiting)
+app.get('/health', handleHealth);
+
 // Global Rate Limiting
 const limiter = rateLimit({
   windowMs: 15 * 60 * 1000,
@@ -44,27 +71,6 @@ const limiter = rateLimit({
   },
 });
 app.use(limiter);
-
-// Health Check Handler
-const handleHealth = async (_req: express.Request, res: express.Response) => {
-  let dbStatus = 'healthy';
-  try {
-    await prisma.$queryRaw`SELECT 1`;
-  } catch (error) {
-    dbStatus = 'unhealthy';
-    logger.error(error, 'Database health check failed');
-  }
-
-  const isHealthy = dbStatus === 'healthy';
-  res.status(isHealthy ? 200 : 503).json({
-    status: isHealthy ? 'healthy' : 'degraded',
-    database: dbStatus,
-    timestamp: new Date().toISOString(),
-    uptime: process.uptime(),
-  });
-};
-
-app.get('/health', handleHealth);
 
 // ============================================================================
 // /api/v1 Unified API Router
@@ -100,10 +106,41 @@ app.use('/payments', paymentsRouter);
 // Global Error Handler
 app.use(errorHandler);
 
-// Server startup
+// Server startup & process lifecycle management
 if (env.NODE_ENV !== 'test') {
-  app.listen(env.PORT, '0.0.0.0', () => {
+  const server = app.listen(env.PORT, '0.0.0.0', () => {
     logger.info(`CBT Master Server is running on port ${env.PORT}`);
+  });
+
+  const shutdown = (signal: string) => {
+    logger.info(`${signal} received: closing HTTP server gracefully`);
+    server.close(async () => {
+      logger.info('HTTP server closed, disconnecting Prisma client');
+      try {
+        await prisma.$disconnect();
+      } catch (err) {
+        logger.error({ err }, 'Error disconnecting Prisma client during shutdown');
+      }
+      process.exit(0);
+    });
+
+    // Force exit after 10s if connections refuse to drain
+    setTimeout(() => {
+      logger.error('Forced shutdown: connections did not drain within 10s');
+      process.exit(1);
+    }, 10000).unref();
+  };
+
+  process.on('SIGTERM', () => shutdown('SIGTERM'));
+  process.on('SIGINT', () => shutdown('SIGINT'));
+
+  process.on('unhandledRejection', (reason) => {
+    logger.error({ reason }, 'Unhandled Promise Rejection');
+  });
+
+  process.on('uncaughtException', (error) => {
+    logger.fatal({ error }, 'Uncaught Exception');
+    process.exit(1);
   });
 }
 

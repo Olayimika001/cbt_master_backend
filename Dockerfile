@@ -1,6 +1,8 @@
 # Multi-stage Dockerfile for CBT Master Backend
 FROM node:20-alpine AS builder
 
+RUN apk add --no-cache openssl libc6-compat
+
 WORKDIR /app
 
 # Install dependencies including Prisma CLI
@@ -21,6 +23,8 @@ RUN npm run build
 
 # Production Runner
 FROM node:20-alpine AS runner
+
+RUN apk add --no-cache openssl libc6-compat
 
 WORKDIR /app
 ENV NODE_ENV=production
