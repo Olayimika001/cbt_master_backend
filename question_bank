@@ -1,0 +1,2604 @@
+{
+  "questions": [
+    {
+      "id": "gst101-q001",
+      "courseCode": "GST101",
+      "topic": "Grammar",
+      "questionText": "Which of the following is NOT a part of speech?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Noun"
+        },
+        {
+          "id": "b",
+          "text": "Verb"
+        },
+        {
+          "id": "c",
+          "text": "Sentence"
+        },
+        {
+          "id": "d",
+          "text": "Adjective"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "A sentence is a grammatical unit built from parts of speech, not a part of speech itself."
+    },
+    {
+      "id": "gst101-q002",
+      "courseCode": "GST101",
+      "topic": "Grammar",
+      "questionText": "Choose the correct plural form of \"child\".",
+      "options": [
+        {
+          "id": "a",
+          "text": "childs"
+        },
+        {
+          "id": "b",
+          "text": "childes"
+        },
+        {
+          "id": "c",
+          "text": "children"
+        },
+        {
+          "id": "d",
+          "text": "childrens"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "\"Children\" is the irregular plural of \"child\"."
+    },
+    {
+      "id": "gst101-q003",
+      "courseCode": "GST101",
+      "topic": "Grammar",
+      "questionText": "Identify the tense: \"She has finished her assignment.\"",
+      "options": [
+        {
+          "id": "a",
+          "text": "Simple past"
+        },
+        {
+          "id": "b",
+          "text": "Present perfect"
+        },
+        {
+          "id": "c",
+          "text": "Past continuous"
+        },
+        {
+          "id": "d",
+          "text": "Future perfect"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "\"Has finished\" uses has/have + past participle, the present perfect structure."
+    },
+    {
+      "id": "gst101-q004",
+      "courseCode": "GST101",
+      "topic": "Vocabulary",
+      "questionText": "Which word is a synonym of \"abundant\"?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Scarce"
+        },
+        {
+          "id": "b",
+          "text": "Plentiful"
+        },
+        {
+          "id": "c",
+          "text": "Meager"
+        },
+        {
+          "id": "d",
+          "text": "Rare"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "\"Plentiful\" means existing in large quantities, matching \"abundant\"."
+    },
+    {
+      "id": "gst101-q005",
+      "courseCode": "GST101",
+      "topic": "Vocabulary",
+      "questionText": "Which word is an antonym of \"benevolent\"?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Kind"
+        },
+        {
+          "id": "b",
+          "text": "Generous"
+        },
+        {
+          "id": "c",
+          "text": "Malevolent"
+        },
+        {
+          "id": "d",
+          "text": "Charitable"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "\"Malevolent\" means having ill will, the opposite of \"benevolent\" (kind-hearted)."
+    },
+    {
+      "id": "gst101-q006",
+      "courseCode": "GST101",
+      "topic": "Spelling",
+      "questionText": "Choose the correctly spelled word.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Recieve"
+        },
+        {
+          "id": "b",
+          "text": "Receive"
+        },
+        {
+          "id": "c",
+          "text": "Receeve"
+        },
+        {
+          "id": "d",
+          "text": "Receve"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The correct spelling follows \"i before e except after c\": Receive."
+    },
+    {
+      "id": "gst101-q007",
+      "courseCode": "GST101",
+      "topic": "Grammar",
+      "questionText": "\"The team ___ playing well this season.\" Choose the correct verb.",
+      "options": [
+        {
+          "id": "a",
+          "text": "is"
+        },
+        {
+          "id": "b",
+          "text": "are"
+        },
+        {
+          "id": "c",
+          "text": "were"
+        },
+        {
+          "id": "d",
+          "text": "have"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "\"Team\" is a collective noun treated as a single unit here, taking the singular verb \"is\"."
+    },
+    {
+      "id": "gst101-q008",
+      "courseCode": "GST101",
+      "topic": "Grammar",
+      "questionText": "Which of these is a compound sentence?",
+      "options": [
+        {
+          "id": "a",
+          "text": "I went to the market."
+        },
+        {
+          "id": "b",
+          "text": "Although it rained, we went out."
+        },
+        {
+          "id": "c",
+          "text": "I went to the market, and I bought some fruits."
+        },
+        {
+          "id": "d",
+          "text": "Going to the market."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "A compound sentence joins two independent clauses with a coordinating conjunction such as \"and\"."
+    },
+    {
+      "id": "gst101-q009",
+      "courseCode": "GST101",
+      "topic": "Figures of Speech",
+      "questionText": "What figure of speech is used in \"The wind whispered through the trees\"?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Simile"
+        },
+        {
+          "id": "b",
+          "text": "Metaphor"
+        },
+        {
+          "id": "c",
+          "text": "Personification"
+        },
+        {
+          "id": "d",
+          "text": "Hyperbole"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Giving the wind the human ability to \"whisper\" is personification."
+    },
+    {
+      "id": "gst101-q010",
+      "courseCode": "GST101",
+      "topic": "Idioms",
+      "questionText": "What is the meaning of the idiom \"to break the ice\"?",
+      "options": [
+        {
+          "id": "a",
+          "text": "To start a conversation in a social setting"
+        },
+        {
+          "id": "b",
+          "text": "To destroy something fragile"
+        },
+        {
+          "id": "c",
+          "text": "To end a relationship"
+        },
+        {
+          "id": "d",
+          "text": "To cause an argument"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "\"Break the ice\" means to ease tension and start conversation, especially with strangers."
+    },
+    {
+      "id": "gst101-q011",
+      "courseCode": "GST101",
+      "topic": "Punctuation",
+      "questionText": "Which punctuation mark is used to indicate direct speech?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Comma"
+        },
+        {
+          "id": "b",
+          "text": "Quotation marks"
+        },
+        {
+          "id": "c",
+          "text": "Semicolon"
+        },
+        {
+          "id": "d",
+          "text": "Colon"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Quotation marks enclose a speaker's exact words."
+    },
+    {
+      "id": "gst101-q012",
+      "courseCode": "GST101",
+      "topic": "Grammar",
+      "questionText": "Identify the subject in the sentence: \"The tall man in the blue shirt smiled.\"",
+      "options": [
+        {
+          "id": "a",
+          "text": "tall man"
+        },
+        {
+          "id": "b",
+          "text": "The tall man in the blue shirt"
+        },
+        {
+          "id": "c",
+          "text": "blue shirt"
+        },
+        {
+          "id": "d",
+          "text": "smiled"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The complete subject is the full noun phrase performing the action: \"The tall man in the blue shirt\"."
+    },
+    {
+      "id": "gst101-q013",
+      "courseCode": "GST101",
+      "topic": "Grammar",
+      "questionText": "Which sentence is grammatically correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Neither of the boys were present."
+        },
+        {
+          "id": "b",
+          "text": "Neither of the boys was present."
+        },
+        {
+          "id": "c",
+          "text": "Neither of the boys is were present."
+        },
+        {
+          "id": "d",
+          "text": "Neither of the boys being present."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "\"Neither\" is singular and takes a singular verb: \"was\"."
+    },
+    {
+      "id": "gst101-q014",
+      "courseCode": "GST101",
+      "topic": "Communication",
+      "questionText": "Which type of communication involves gestures, facial expressions, and body posture?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Verbal communication"
+        },
+        {
+          "id": "b",
+          "text": "Written communication"
+        },
+        {
+          "id": "c",
+          "text": "Non-verbal communication"
+        },
+        {
+          "id": "d",
+          "text": "Formal communication"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Non-verbal communication conveys meaning without spoken or written words."
+    },
+    {
+      "id": "gst101-q015",
+      "courseCode": "GST101",
+      "topic": "Grammar",
+      "questionText": "Which of the following is a proper noun?",
+      "options": [
+        {
+          "id": "a",
+          "text": "city"
+        },
+        {
+          "id": "b",
+          "text": "river"
+        },
+        {
+          "id": "c",
+          "text": "Lagos"
+        },
+        {
+          "id": "d",
+          "text": "teacher"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "\"Lagos\" names a specific place, making it a proper noun (capitalized)."
+    },
+    {
+      "id": "gst101-q016",
+      "courseCode": "GST101",
+      "topic": "Grammar",
+      "questionText": "Choose the correct comparative form: \"This book is ___ than that one.\"",
+      "options": [
+        {
+          "id": "a",
+          "text": "interesting"
+        },
+        {
+          "id": "b",
+          "text": "more interesting"
+        },
+        {
+          "id": "c",
+          "text": "most interesting"
+        },
+        {
+          "id": "d",
+          "text": "interestinger"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Multi-syllable adjectives form comparatives with \"more\", not a suffix."
+    },
+    {
+      "id": "gst101-q017",
+      "courseCode": "GST101",
+      "topic": "Writing Skills",
+      "questionText": "What is the main purpose of a topic sentence in a paragraph?",
+      "options": [
+        {
+          "id": "a",
+          "text": "To conclude the paragraph"
+        },
+        {
+          "id": "b",
+          "text": "To state the main idea of the paragraph"
+        },
+        {
+          "id": "c",
+          "text": "To provide examples"
+        },
+        {
+          "id": "d",
+          "text": "To list references"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "A topic sentence introduces and summarizes the paragraph's central idea."
+    },
+    {
+      "id": "gst101-q018",
+      "courseCode": "GST101",
+      "topic": "Vocabulary",
+      "questionText": "Which of the following is an example of a homophone pair?",
+      "options": [
+        {
+          "id": "a",
+          "text": "big/large"
+        },
+        {
+          "id": "b",
+          "text": "their/there"
+        },
+        {
+          "id": "c",
+          "text": "happy/sad"
+        },
+        {
+          "id": "d",
+          "text": "run/ran"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "\"Their\" and \"there\" sound alike but differ in spelling and meaning, making them homophones."
+    },
+    {
+      "id": "gst101-q019",
+      "courseCode": "GST101",
+      "topic": "Letter Writing",
+      "questionText": "In formal letter writing, what is the correct way to close a letter that begins with \"Dear Sir/Madam\"?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Best wishes"
+        },
+        {
+          "id": "b",
+          "text": "Yours sincerely"
+        },
+        {
+          "id": "c",
+          "text": "Yours faithfully"
+        },
+        {
+          "id": "d",
+          "text": "Cheers"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "\"Yours faithfully\" is used when the recipient's name is unknown, as with \"Dear Sir/Madam\"."
+    },
+    {
+      "id": "gst101-q020",
+      "courseCode": "GST101",
+      "topic": "Grammar",
+      "questionText": "Which word correctly completes the sentence: \"Each of the students ___ given a textbook.\"?",
+      "options": [
+        {
+          "id": "a",
+          "text": "were"
+        },
+        {
+          "id": "b",
+          "text": "was"
+        },
+        {
+          "id": "c",
+          "text": "have been"
+        },
+        {
+          "id": "d",
+          "text": "are"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "\"Each\" is singular and takes a singular verb: \"was\"."
+    },
+    {
+      "id": "gst101-q021",
+      "courseCode": "GST101",
+      "topic": "Vocabulary",
+      "questionText": "What is the term for words that sound the same but have different meanings and spellings?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Synonyms"
+        },
+        {
+          "id": "b",
+          "text": "Antonyms"
+        },
+        {
+          "id": "c",
+          "text": "Homophones"
+        },
+        {
+          "id": "d",
+          "text": "Homonyms"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Homophones sound alike but are spelled differently and mean different things."
+    },
+    {
+      "id": "gst101-q022",
+      "courseCode": "GST101",
+      "topic": "Figures of Speech",
+      "questionText": "Which of these is an example of alliteration?",
+      "options": [
+        {
+          "id": "a",
+          "text": "She sells seashells by the seashore"
+        },
+        {
+          "id": "b",
+          "text": "Time is money"
+        },
+        {
+          "id": "c",
+          "text": "The classroom was a zoo"
+        },
+        {
+          "id": "d",
+          "text": "It's raining cats and dogs"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Alliteration is the repetition of initial consonant sounds, as in the repeated \"s\" sound."
+    },
+    {
+      "id": "gst101-q023",
+      "courseCode": "GST101",
+      "topic": "Grammar",
+      "questionText": "Choose the sentence with correct subject-verb agreement.",
+      "options": [
+        {
+          "id": "a",
+          "text": "The list of items are on the table."
+        },
+        {
+          "id": "b",
+          "text": "The list of items is on the table."
+        },
+        {
+          "id": "c",
+          "text": "The list of items were on the table."
+        },
+        {
+          "id": "d",
+          "text": "The list of items being on the table."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The subject is \"list\" (singular), not \"items\", so the verb must be \"is\"."
+    },
+    {
+      "id": "gst101-q024",
+      "courseCode": "GST101",
+      "topic": "Grammar",
+      "questionText": "What is the function of an adverb in a sentence?",
+      "options": [
+        {
+          "id": "a",
+          "text": "To name a person, place or thing"
+        },
+        {
+          "id": "b",
+          "text": "To modify a verb, adjective or another adverb"
+        },
+        {
+          "id": "c",
+          "text": "To connect clauses"
+        },
+        {
+          "id": "d",
+          "text": "To show possession"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Adverbs describe or modify verbs, adjectives, or other adverbs."
+    },
+    {
+      "id": "gst101-q025",
+      "courseCode": "GST101",
+      "topic": "Reading Skills",
+      "questionText": "Which of the following best describes \"skimming\" as a reading skill?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Reading every word carefully"
+        },
+        {
+          "id": "b",
+          "text": "Reading quickly to get the general idea"
+        },
+        {
+          "id": "c",
+          "text": "Reading aloud"
+        },
+        {
+          "id": "d",
+          "text": "Reading to memorize"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Skimming means reading rapidly to grasp the overall gist of a text."
+    },
+    {
+      "id": "gst102-q026",
+      "courseCode": "GST102",
+      "topic": "History",
+      "questionText": "In what year did Nigeria gain independence from British colonial rule?",
+      "options": [
+        {
+          "id": "a",
+          "text": "1957"
+        },
+        {
+          "id": "b",
+          "text": "1960"
+        },
+        {
+          "id": "c",
+          "text": "1963"
+        },
+        {
+          "id": "d",
+          "text": "1966"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Nigeria became independent on 1 October 1960."
+    },
+    {
+      "id": "gst102-q027",
+      "courseCode": "GST102",
+      "topic": "History",
+      "questionText": "Nigeria became a republic in which year?",
+      "options": [
+        {
+          "id": "a",
+          "text": "1960"
+        },
+        {
+          "id": "b",
+          "text": "1963"
+        },
+        {
+          "id": "c",
+          "text": "1966"
+        },
+        {
+          "id": "d",
+          "text": "1970"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Nigeria became a republic in 1963, with Nnamdi Azikiwe as the first President."
+    },
+    {
+      "id": "gst102-q028",
+      "courseCode": "GST102",
+      "topic": "History",
+      "questionText": "Who was Nigeria's first President?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tafawa Balewa"
+        },
+        {
+          "id": "b",
+          "text": "Nnamdi Azikiwe"
+        },
+        {
+          "id": "c",
+          "text": "Yakubu Gowon"
+        },
+        {
+          "id": "d",
+          "text": "Olusegun Obasanjo"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Nnamdi Azikiwe became Nigeria's first President when it became a republic in 1963; Balewa was Prime Minister."
+    },
+    {
+      "id": "gst102-q029",
+      "courseCode": "GST102",
+      "topic": "History",
+      "questionText": "The amalgamation of the Northern and Southern Protectorates of Nigeria took place in which year?",
+      "options": [
+        {
+          "id": "a",
+          "text": "1900"
+        },
+        {
+          "id": "b",
+          "text": "1914"
+        },
+        {
+          "id": "c",
+          "text": "1922"
+        },
+        {
+          "id": "d",
+          "text": "1954"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Lord Lugard amalgamated the Northern and Southern Protectorates into one entity in 1914."
+    },
+    {
+      "id": "gst102-q030",
+      "courseCode": "GST102",
+      "topic": "History",
+      "questionText": "Which British colonial administrator is credited with the amalgamation of Nigeria in 1914?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lord Lugard"
+        },
+        {
+          "id": "b",
+          "text": "Lord Harcourt"
+        },
+        {
+          "id": "c",
+          "text": "Sir Hugh Clifford"
+        },
+        {
+          "id": "d",
+          "text": "Sir Bernard Bourdillon"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Lord Frederick Lugard oversaw the 1914 amalgamation as Governor-General."
+    },
+    {
+      "id": "gst102-q031",
+      "courseCode": "GST102",
+      "topic": "Geography",
+      "questionText": "How many states currently make up the Federal Republic of Nigeria (excluding the FCT)?",
+      "options": [
+        {
+          "id": "a",
+          "text": "30"
+        },
+        {
+          "id": "b",
+          "text": "33"
+        },
+        {
+          "id": "c",
+          "text": "36"
+        },
+        {
+          "id": "d",
+          "text": "37"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Nigeria has 36 states plus the Federal Capital Territory."
+    },
+    {
+      "id": "gst102-q032",
+      "courseCode": "GST102",
+      "topic": "Geography",
+      "questionText": "Which city serves as the Federal Capital Territory of Nigeria?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lagos"
+        },
+        {
+          "id": "b",
+          "text": "Kaduna"
+        },
+        {
+          "id": "c",
+          "text": "Abuja"
+        },
+        {
+          "id": "d",
+          "text": "Enugu"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Abuja became Nigeria's federal capital in 1991, replacing Lagos."
+    },
+    {
+      "id": "gst102-q033",
+      "courseCode": "GST102",
+      "topic": "Ethnic Groups",
+      "questionText": "Which of these is one of Nigeria's three major ethnic groups?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tiv"
+        },
+        {
+          "id": "b",
+          "text": "Yoruba"
+        },
+        {
+          "id": "c",
+          "text": "Ijaw"
+        },
+        {
+          "id": "d",
+          "text": "Efik"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Hausa-Fulani, Yoruba, and Igbo are widely regarded as Nigeria's three largest ethnic groups."
+    },
+    {
+      "id": "gst102-q034",
+      "courseCode": "GST102",
+      "topic": "History",
+      "questionText": "The Sokoto Caliphate was founded following the jihad led by which leader?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Usman dan Fodio"
+        },
+        {
+          "id": "b",
+          "text": "Muhammadu Bello"
+        },
+        {
+          "id": "c",
+          "text": "Shehu Ahmadu"
+        },
+        {
+          "id": "d",
+          "text": "Al-Kanemi"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Usman dan Fodio led the early 19th-century jihad that established the Sokoto Caliphate."
+    },
+    {
+      "id": "gst102-q035",
+      "courseCode": "GST102",
+      "topic": "Culture",
+      "questionText": "The ancient Benin Kingdom was renowned for its skill in which craft?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pottery"
+        },
+        {
+          "id": "b",
+          "text": "Bronze casting"
+        },
+        {
+          "id": "c",
+          "text": "Weaving"
+        },
+        {
+          "id": "d",
+          "text": "Leatherworking"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The Benin Kingdom is famed worldwide for its intricate bronze and brass castings."
+    },
+    {
+      "id": "gst102-q036",
+      "courseCode": "GST102",
+      "topic": "History",
+      "questionText": "Which pre-colonial Nigerian empire was centered around Lake Chad?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Oyo Empire"
+        },
+        {
+          "id": "b",
+          "text": "Benin Empire"
+        },
+        {
+          "id": "c",
+          "text": "Kanem-Bornu Empire"
+        },
+        {
+          "id": "d",
+          "text": "Nupe Kingdom"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The Kanem-Bornu Empire was located in the Lake Chad basin region."
+    },
+    {
+      "id": "gst102-q037",
+      "courseCode": "GST102",
+      "topic": "Government",
+      "questionText": "Nigeria operates which type of government system?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Unitary"
+        },
+        {
+          "id": "b",
+          "text": "Federal"
+        },
+        {
+          "id": "c",
+          "text": "Confederal"
+        },
+        {
+          "id": "d",
+          "text": "Monarchy"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Nigeria is a federation of states and a Federal Capital Territory under a federal system."
+    },
+    {
+      "id": "gst102-q038",
+      "courseCode": "GST102",
+      "topic": "Geography",
+      "questionText": "How many geopolitical zones is Nigeria divided into?",
+      "options": [
+        {
+          "id": "a",
+          "text": "4"
+        },
+        {
+          "id": "b",
+          "text": "5"
+        },
+        {
+          "id": "c",
+          "text": "6"
+        },
+        {
+          "id": "d",
+          "text": "7"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Nigeria is commonly divided into six geopolitical zones: North West, North East, North Central, South West, South East, and South South."
+    },
+    {
+      "id": "gst102-q039",
+      "courseCode": "GST102",
+      "topic": "Geography",
+      "questionText": "Which geopolitical zone is Lagos State located in?",
+      "options": [
+        {
+          "id": "a",
+          "text": "North Central"
+        },
+        {
+          "id": "b",
+          "text": "South West"
+        },
+        {
+          "id": "c",
+          "text": "South South"
+        },
+        {
+          "id": "d",
+          "text": "South East"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Lagos State is part of the South West geopolitical zone."
+    },
+    {
+      "id": "gst102-q040",
+      "courseCode": "GST102",
+      "topic": "Culture",
+      "questionText": "The traditional ruler of the Yoruba people of Oyo is known by which title?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Emir"
+        },
+        {
+          "id": "b",
+          "text": "Obi"
+        },
+        {
+          "id": "c",
+          "text": "Alaafin"
+        },
+        {
+          "id": "d",
+          "text": "Oba of Benin"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The Alaafin is the traditional title of the ruler of the Oyo Kingdom."
+    },
+    {
+      "id": "gst102-q041",
+      "courseCode": "GST102",
+      "topic": "Culture",
+      "questionText": "What is the traditional title of the paramount ruler of the Hausa-Fulani emirates?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Oba"
+        },
+        {
+          "id": "b",
+          "text": "Emir"
+        },
+        {
+          "id": "c",
+          "text": "Alaafin"
+        },
+        {
+          "id": "d",
+          "text": "Eze"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "\"Emir\" is the traditional title used across the Hausa-Fulani emirates of Northern Nigeria."
+    },
+    {
+      "id": "gst102-q042",
+      "courseCode": "GST102",
+      "topic": "Culture",
+      "questionText": "What is the title of the traditional ruler among the Igbo people in many communities?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Oba"
+        },
+        {
+          "id": "b",
+          "text": "Igwe/Eze"
+        },
+        {
+          "id": "c",
+          "text": "Emir"
+        },
+        {
+          "id": "d",
+          "text": "Attah"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "\"Igwe\" or \"Eze\" are common traditional titles used in many Igbo communities."
+    },
+    {
+      "id": "gst102-q043",
+      "courseCode": "GST102",
+      "topic": "Education Policy",
+      "questionText": "Which of the following is NOT one of Nigeria's major indigenous languages taught under the National Policy on Education?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hausa"
+        },
+        {
+          "id": "b",
+          "text": "Yoruba"
+        },
+        {
+          "id": "c",
+          "text": "Igbo"
+        },
+        {
+          "id": "d",
+          "text": "French"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "French is taught as a foreign language in Nigeria, not an indigenous Nigerian language."
+    },
+    {
+      "id": "gst102-q044",
+      "courseCode": "GST102",
+      "topic": "Culture",
+      "questionText": "The concept of \"unity in diversity\" in Nigerian culture refers to:",
+      "options": [
+        {
+          "id": "a",
+          "text": "The dominance of one culture over others"
+        },
+        {
+          "id": "b",
+          "text": "The peaceful coexistence and cooperation of Nigeria's diverse ethnic groups"
+        },
+        {
+          "id": "c",
+          "text": "The elimination of cultural differences"
+        },
+        {
+          "id": "d",
+          "text": "The isolation of ethnic groups from each other"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "\"Unity in diversity\" describes different groups living and working together despite their cultural differences."
+    },
+    {
+      "id": "gst102-q045",
+      "courseCode": "GST102",
+      "topic": "Culture",
+      "questionText": "Which of these Nigerian festivals is associated with the Igbo people?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Argungu Fishing Festival"
+        },
+        {
+          "id": "b",
+          "text": "New Yam Festival (Iri Ji)"
+        },
+        {
+          "id": "c",
+          "text": "Eyo Festival"
+        },
+        {
+          "id": "d",
+          "text": "Durbar Festival"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The New Yam Festival (Iri Ji) is a major Igbo harvest celebration."
+    },
+    {
+      "id": "gst102-q046",
+      "courseCode": "GST102",
+      "topic": "Culture",
+      "questionText": "The Eyo festival is traditionally celebrated by which group?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hausa people of Kano"
+        },
+        {
+          "id": "b",
+          "text": "Lagos indigenes (Yoruba/Eko)"
+        },
+        {
+          "id": "c",
+          "text": "Igbo people of Enugu"
+        },
+        {
+          "id": "d",
+          "text": "Efik people of Calabar"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The Eyo festival is a traditional masquerade festival of the Lagos (Eko) indigenes."
+    },
+    {
+      "id": "gst102-q047",
+      "courseCode": "GST102",
+      "topic": "Culture",
+      "questionText": "The Durbar festival, featuring horse parades, is most associated with which region?",
+      "options": [
+        {
+          "id": "a",
+          "text": "South West"
+        },
+        {
+          "id": "b",
+          "text": "South East"
+        },
+        {
+          "id": "c",
+          "text": "Northern Nigeria"
+        },
+        {
+          "id": "d",
+          "text": "South South"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Durbar festivals, with elaborate horse displays, are a Northern Nigerian tradition tied to Sallah celebrations."
+    },
+    {
+      "id": "gst102-q048",
+      "courseCode": "GST102",
+      "topic": "History",
+      "questionText": "What was the name of the civil war fought in Nigeria between 1967 and 1970?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The Biafran War"
+        },
+        {
+          "id": "b",
+          "text": "The Kano Riots"
+        },
+        {
+          "id": "c",
+          "text": "The Aba Women's Riot"
+        },
+        {
+          "id": "d",
+          "text": "The Niger Delta Conflict"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The Nigerian Civil War (1967-1970) is also known as the Biafran War."
+    },
+    {
+      "id": "gst102-q049",
+      "courseCode": "GST102",
+      "topic": "History",
+      "questionText": "The Aba Women's Riot of 1929 was primarily a protest against:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Colonial taxation policies"
+        },
+        {
+          "id": "b",
+          "text": "Slave trade"
+        },
+        {
+          "id": "c",
+          "text": "Land ownership laws"
+        },
+        {
+          "id": "d",
+          "text": "Educational reforms"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Igbo and Ibibio women protested against colonial taxation and the warrant chief system in 1929."
+    },
+    {
+      "id": "gst102-q050",
+      "courseCode": "GST102",
+      "topic": "Citizenship",
+      "questionText": "National values promoted under Nigerian citizenship education include all EXCEPT:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Patriotism"
+        },
+        {
+          "id": "b",
+          "text": "Social justice"
+        },
+        {
+          "id": "c",
+          "text": "Ethnic favoritism"
+        },
+        {
+          "id": "d",
+          "text": "Respect for human dignity"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Ethnic favoritism contradicts the national values of fairness and unity that citizenship education promotes."
+    },
+    {
+      "id": "gst103-q051",
+      "courseCode": "GST103",
+      "topic": "Definition",
+      "questionText": "The word \"philosophy\" is derived from Greek words meaning:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Love of wisdom"
+        },
+        {
+          "id": "b",
+          "text": "Study of nature"
+        },
+        {
+          "id": "c",
+          "text": "Search for truth"
+        },
+        {
+          "id": "d",
+          "text": "Knowledge of God"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "\"Philosophy\" comes from the Greek \"philo\" (love) and \"sophia\" (wisdom)."
+    },
+    {
+      "id": "gst103-q052",
+      "courseCode": "GST103",
+      "topic": "Branches",
+      "questionText": "Which branch of philosophy deals with the nature of reality and existence?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Epistemology"
+        },
+        {
+          "id": "b",
+          "text": "Metaphysics"
+        },
+        {
+          "id": "c",
+          "text": "Ethics"
+        },
+        {
+          "id": "d",
+          "text": "Aesthetics"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Metaphysics studies the fundamental nature of reality and existence."
+    },
+    {
+      "id": "gst103-q053",
+      "courseCode": "GST103",
+      "topic": "Branches",
+      "questionText": "Which branch of philosophy is concerned with the study of knowledge?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Logic"
+        },
+        {
+          "id": "b",
+          "text": "Epistemology"
+        },
+        {
+          "id": "c",
+          "text": "Metaphysics"
+        },
+        {
+          "id": "d",
+          "text": "Ethics"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Epistemology examines the nature, sources, and limits of knowledge."
+    },
+    {
+      "id": "gst103-q054",
+      "courseCode": "GST103",
+      "topic": "Definition",
+      "questionText": "Logic is primarily concerned with the study of:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Beauty"
+        },
+        {
+          "id": "b",
+          "text": "Correct reasoning and argument"
+        },
+        {
+          "id": "c",
+          "text": "Moral values"
+        },
+        {
+          "id": "d",
+          "text": "The physical universe"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Logic studies the principles of valid reasoning and argument construction."
+    },
+    {
+      "id": "gst103-q055",
+      "courseCode": "GST103",
+      "topic": "History of Philosophy",
+      "questionText": "Who is widely regarded as the father of Western philosophy?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Aristotle"
+        },
+        {
+          "id": "b",
+          "text": "Plato"
+        },
+        {
+          "id": "c",
+          "text": "Socrates"
+        },
+        {
+          "id": "d",
+          "text": "Pythagoras"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Socrates is traditionally credited as a foundational figure of Western philosophy."
+    },
+    {
+      "id": "gst103-q056",
+      "courseCode": "GST103",
+      "topic": "History of Philosophy",
+      "questionText": "Which philosopher was a student of Socrates and teacher of Aristotle?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Plato"
+        },
+        {
+          "id": "b",
+          "text": "Descartes"
+        },
+        {
+          "id": "c",
+          "text": "Kant"
+        },
+        {
+          "id": "d",
+          "text": "Confucius"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Plato studied under Socrates and later taught Aristotle."
+    },
+    {
+      "id": "gst103-q057",
+      "courseCode": "GST103",
+      "topic": "Syllogism",
+      "questionText": "A syllogism consists of how many propositions/statements?",
+      "options": [
+        {
+          "id": "a",
+          "text": "One"
+        },
+        {
+          "id": "b",
+          "text": "Two"
+        },
+        {
+          "id": "c",
+          "text": "Three"
+        },
+        {
+          "id": "d",
+          "text": "Four"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "A categorical syllogism has a major premise, a minor premise, and a conclusion."
+    },
+    {
+      "id": "gst103-q058",
+      "courseCode": "GST103",
+      "topic": "Syllogism",
+      "questionText": "In a categorical syllogism, the statement \"All men are mortal\" is an example of:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Minor premise"
+        },
+        {
+          "id": "b",
+          "text": "Major premise"
+        },
+        {
+          "id": "c",
+          "text": "Conclusion"
+        },
+        {
+          "id": "d",
+          "text": "Fallacy"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "This general statement typically serves as the major premise in a syllogism."
+    },
+    {
+      "id": "gst103-q059",
+      "courseCode": "GST103",
+      "topic": "Reasoning",
+      "questionText": "Reasoning from general principles to a specific conclusion is called:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Inductive reasoning"
+        },
+        {
+          "id": "b",
+          "text": "Deductive reasoning"
+        },
+        {
+          "id": "c",
+          "text": "Abductive reasoning"
+        },
+        {
+          "id": "d",
+          "text": "Analogical reasoning"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Deductive reasoning moves from general premises to a specific, logically certain conclusion."
+    },
+    {
+      "id": "gst103-q060",
+      "courseCode": "GST103",
+      "topic": "Reasoning",
+      "questionText": "Reasoning from specific observations to a general conclusion is called:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Deductive reasoning"
+        },
+        {
+          "id": "b",
+          "text": "Inductive reasoning"
+        },
+        {
+          "id": "c",
+          "text": "Circular reasoning"
+        },
+        {
+          "id": "d",
+          "text": "Syllogistic reasoning"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Inductive reasoning draws general conclusions from specific observed instances."
+    },
+    {
+      "id": "gst103-q061",
+      "courseCode": "GST103",
+      "topic": "Fallacies",
+      "questionText": "Which of the following is an example of a logical fallacy?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Valid syllogism"
+        },
+        {
+          "id": "b",
+          "text": "Ad hominem attack"
+        },
+        {
+          "id": "c",
+          "text": "Sound argument"
+        },
+        {
+          "id": "d",
+          "text": "Deductive proof"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "An ad hominem attack targets the person rather than the argument, making it a fallacy."
+    },
+    {
+      "id": "gst103-q062",
+      "courseCode": "GST103",
+      "topic": "Fallacies",
+      "questionText": "The fallacy of attacking a person's character instead of their argument is known as:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Straw man"
+        },
+        {
+          "id": "b",
+          "text": "Ad hominem"
+        },
+        {
+          "id": "c",
+          "text": "False dilemma"
+        },
+        {
+          "id": "d",
+          "text": "Slippery slope"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "\"Ad hominem\" is Latin for \"to the person\", describing attacks on the arguer rather than the argument."
+    },
+    {
+      "id": "gst103-q063",
+      "courseCode": "GST103",
+      "topic": "Fallacies",
+      "questionText": "Which fallacy involves presenting only two options when more exist?",
+      "options": [
+        {
+          "id": "a",
+          "text": "False dilemma"
+        },
+        {
+          "id": "b",
+          "text": "Ad hominem"
+        },
+        {
+          "id": "c",
+          "text": "Appeal to authority"
+        },
+        {
+          "id": "d",
+          "text": "Circular reasoning"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "A false dilemma wrongly limits choices to two when other options are available."
+    },
+    {
+      "id": "gst103-q064",
+      "courseCode": "GST103",
+      "topic": "History of Philosophy",
+      "questionText": "Rene Descartes is famous for the philosophical statement:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Man is a rational animal"
+        },
+        {
+          "id": "b",
+          "text": "I think, therefore I am"
+        },
+        {
+          "id": "c",
+          "text": "Know thyself"
+        },
+        {
+          "id": "d",
+          "text": "The unexamined life is not worth living"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "\"Cogito, ergo sum\" (I think, therefore I am) is Descartes' foundational statement."
+    },
+    {
+      "id": "gst103-q065",
+      "courseCode": "GST103",
+      "topic": "History of Philosophy",
+      "questionText": "\"Know thyself\" is a maxim associated with which philosopher?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Aristotle"
+        },
+        {
+          "id": "b",
+          "text": "Socrates"
+        },
+        {
+          "id": "c",
+          "text": "Descartes"
+        },
+        {
+          "id": "d",
+          "text": "Kant"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "\"Know thyself\" is a maxim central to Socratic philosophy."
+    },
+    {
+      "id": "gst103-q066",
+      "courseCode": "GST103",
+      "topic": "Branches",
+      "questionText": "Ethics, as a branch of philosophy, is primarily concerned with:",
+      "options": [
+        {
+          "id": "a",
+          "text": "The nature of existence"
+        },
+        {
+          "id": "b",
+          "text": "Moral principles and values"
+        },
+        {
+          "id": "c",
+          "text": "Methods of correct reasoning"
+        },
+        {
+          "id": "d",
+          "text": "The theory of knowledge"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Ethics examines questions of right and wrong, and moral values."
+    },
+    {
+      "id": "gst103-q067",
+      "courseCode": "GST103",
+      "topic": "Logic",
+      "questionText": "An argument in which the conclusion necessarily follows from true premises is described as:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Invalid"
+        },
+        {
+          "id": "b",
+          "text": "Valid"
+        },
+        {
+          "id": "c",
+          "text": "Fallacious"
+        },
+        {
+          "id": "d",
+          "text": "Ambiguous"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "An argument is valid when its conclusion logically follows from its premises."
+    },
+    {
+      "id": "gst103-q068",
+      "courseCode": "GST103",
+      "topic": "Branches",
+      "questionText": "The branch of philosophy concerned with beauty and art is called:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ethics"
+        },
+        {
+          "id": "b",
+          "text": "Aesthetics"
+        },
+        {
+          "id": "c",
+          "text": "Metaphysics"
+        },
+        {
+          "id": "d",
+          "text": "Logic"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Aesthetics studies beauty, art, and taste."
+    },
+    {
+      "id": "gst103-q069",
+      "courseCode": "GST103",
+      "topic": "Logic",
+      "questionText": "A statement that can be judged as either true or false is called a:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Fallacy"
+        },
+        {
+          "id": "b",
+          "text": "Proposition"
+        },
+        {
+          "id": "c",
+          "text": "Syllogism"
+        },
+        {
+          "id": "d",
+          "text": "Premise only"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "A proposition is a declarative statement with a definite truth value."
+    },
+    {
+      "id": "gst103-q070",
+      "courseCode": "GST103",
+      "topic": "Logic",
+      "questionText": "In logic, the term \"premise\" refers to:",
+      "options": [
+        {
+          "id": "a",
+          "text": "The final conclusion of an argument"
+        },
+        {
+          "id": "b",
+          "text": "A statement offered as evidence or reason for a conclusion"
+        },
+        {
+          "id": "c",
+          "text": "A logical fallacy"
+        },
+        {
+          "id": "d",
+          "text": "An invalid argument"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Premises are the supporting statements from which a conclusion is drawn."
+    },
+    {
+      "id": "gst103-q071",
+      "courseCode": "GST103",
+      "topic": "Fallacies",
+      "questionText": "Which of these best describes an \"informal fallacy\"?",
+      "options": [
+        {
+          "id": "a",
+          "text": "An error in reasoning based on the content or context of an argument rather than its structure"
+        },
+        {
+          "id": "b",
+          "text": "A mathematical error"
+        },
+        {
+          "id": "c",
+          "text": "A grammatical mistake"
+        },
+        {
+          "id": "d",
+          "text": "A valid deductive argument"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Informal fallacies arise from the content or context of an argument, not its logical form."
+    },
+    {
+      "id": "gst103-q072",
+      "courseCode": "GST103",
+      "topic": "Fallacies",
+      "questionText": "The \"slippery slope\" fallacy assumes that:",
+      "options": [
+        {
+          "id": "a",
+          "text": "One small step will inevitably lead to a chain of extreme events"
+        },
+        {
+          "id": "b",
+          "text": "Two options are the only possibilities"
+        },
+        {
+          "id": "c",
+          "text": "An argument is true because many people believe it"
+        },
+        {
+          "id": "d",
+          "text": "A person's character determines the truth of their claim"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Slippery slope arguments wrongly assume an inevitable chain reaction from one small step."
+    },
+    {
+      "id": "gst103-q073",
+      "courseCode": "GST103",
+      "topic": "History of Philosophy",
+      "questionText": "Which philosopher developed the theory of Forms, arguing that abstract ideas represent ultimate reality?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Aristotle"
+        },
+        {
+          "id": "b",
+          "text": "Plato"
+        },
+        {
+          "id": "c",
+          "text": "Socrates"
+        },
+        {
+          "id": "d",
+          "text": "Confucius"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Plato's Theory of Forms holds that non-physical abstract Forms represent the truest reality."
+    },
+    {
+      "id": "gst103-q074",
+      "courseCode": "GST103",
+      "topic": "Fallacies",
+      "questionText": "The appeal to popularity fallacy assumes that a claim is true because:",
+      "options": [
+        {
+          "id": "a",
+          "text": "It is logically valid"
+        },
+        {
+          "id": "b",
+          "text": "It is believed by many people"
+        },
+        {
+          "id": "c",
+          "text": "An expert stated it"
+        },
+        {
+          "id": "d",
+          "text": "It cannot be disproven"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Appeal to popularity wrongly treats widespread belief as proof of truth."
+    },
+    {
+      "id": "gst103-q075",
+      "courseCode": "GST103",
+      "topic": "Critical Thinking",
+      "questionText": "Critical thinking, as taught in logic and philosophy courses, primarily aims to develop a student's ability to:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Memorize facts"
+        },
+        {
+          "id": "b",
+          "text": "Analyze and evaluate arguments objectively"
+        },
+        {
+          "id": "c",
+          "text": "Avoid questioning existing beliefs"
+        },
+        {
+          "id": "d",
+          "text": "Accept authority without question"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Critical thinking trains students to objectively analyze and evaluate reasoning and evidence."
+    },
+    {
+      "id": "gst104-q076",
+      "courseCode": "GST104",
+      "topic": "Hardware",
+      "questionText": "The acronym CPU stands for:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Central Processing Unit"
+        },
+        {
+          "id": "b",
+          "text": "Computer Personal Unit"
+        },
+        {
+          "id": "c",
+          "text": "Central Program Unit"
+        },
+        {
+          "id": "d",
+          "text": "Central Processor Unity"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "CPU stands for Central Processing Unit, the computer's main processing component."
+    },
+    {
+      "id": "gst104-q077",
+      "courseCode": "GST104",
+      "topic": "Hardware",
+      "questionText": "Which of the following is an input device?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Monitor"
+        },
+        {
+          "id": "b",
+          "text": "Printer"
+        },
+        {
+          "id": "c",
+          "text": "Keyboard"
+        },
+        {
+          "id": "d",
+          "text": "Speaker"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "A keyboard sends data/commands into the computer, making it an input device."
+    },
+    {
+      "id": "gst104-q078",
+      "courseCode": "GST104",
+      "topic": "Hardware",
+      "questionText": "Which of the following is an output device?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mouse"
+        },
+        {
+          "id": "b",
+          "text": "Scanner"
+        },
+        {
+          "id": "c",
+          "text": "Monitor"
+        },
+        {
+          "id": "d",
+          "text": "Keyboard"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "A monitor displays information from the computer, making it an output device."
+    },
+    {
+      "id": "gst104-q079",
+      "courseCode": "GST104",
+      "topic": "Memory",
+      "questionText": "RAM stands for:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Random Access Memory"
+        },
+        {
+          "id": "b",
+          "text": "Read Access Memory"
+        },
+        {
+          "id": "c",
+          "text": "Rapid Access Memory"
+        },
+        {
+          "id": "d",
+          "text": "Read and Modify memory"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "RAM stands for Random Access Memory, used for temporary data storage while a computer runs."
+    },
+    {
+      "id": "gst104-q080",
+      "courseCode": "GST104",
+      "topic": "Memory",
+      "questionText": "Which type of computer memory is volatile (loses data when power is off)?",
+      "options": [
+        {
+          "id": "a",
+          "text": "ROM"
+        },
+        {
+          "id": "b",
+          "text": "RAM"
+        },
+        {
+          "id": "c",
+          "text": "Hard disk"
+        },
+        {
+          "id": "d",
+          "text": "Flash drive"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "RAM is volatile memory, meaning its contents are lost when power is removed."
+    },
+    {
+      "id": "gst104-q081",
+      "courseCode": "GST104",
+      "topic": "Memory",
+      "questionText": "ROM stands for:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Read Only Memory"
+        },
+        {
+          "id": "b",
+          "text": "Random Only Memory"
+        },
+        {
+          "id": "c",
+          "text": "Read Operational Memory"
+        },
+        {
+          "id": "d",
+          "text": "Rapid Output Memory"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "ROM stands for Read Only Memory, which retains data even without power."
+    },
+    {
+      "id": "gst104-q082",
+      "courseCode": "GST104",
+      "topic": "History of Computing",
+      "questionText": "Which generation of computers introduced the use of microprocessors?",
+      "options": [
+        {
+          "id": "a",
+          "text": "First generation"
+        },
+        {
+          "id": "b",
+          "text": "Second generation"
+        },
+        {
+          "id": "c",
+          "text": "Third generation"
+        },
+        {
+          "id": "d",
+          "text": "Fourth generation"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Fourth-generation computers (from the 1970s) introduced microprocessors."
+    },
+    {
+      "id": "gst104-q083",
+      "courseCode": "GST104",
+      "topic": "History of Computing",
+      "questionText": "The first generation of computers primarily used which technology?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Transistors"
+        },
+        {
+          "id": "b",
+          "text": "Vacuum tubes"
+        },
+        {
+          "id": "c",
+          "text": "Integrated circuits"
+        },
+        {
+          "id": "d",
+          "text": "Microprocessors"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "First-generation computers (1940s-1950s) relied on vacuum tube technology."
+    },
+    {
+      "id": "gst104-q084",
+      "courseCode": "GST104",
+      "topic": "Storage",
+      "questionText": "Which of the following is a secondary storage device?",
+      "options": [
+        {
+          "id": "a",
+          "text": "RAM"
+        },
+        {
+          "id": "b",
+          "text": "Cache memory"
+        },
+        {
+          "id": "c",
+          "text": "Hard disk drive"
+        },
+        {
+          "id": "d",
+          "text": "Register"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "A hard disk drive provides persistent secondary storage, unlike RAM or cache."
+    },
+    {
+      "id": "gst104-q085",
+      "courseCode": "GST104",
+      "topic": "Software",
+      "questionText": "The term \"software\" refers to:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Physical components of a computer"
+        },
+        {
+          "id": "b",
+          "text": "Programs and instructions that run on a computer"
+        },
+        {
+          "id": "c",
+          "text": "Only the operating system"
+        },
+        {
+          "id": "d",
+          "text": "Only the internet browser"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Software broadly means any set of programs and instructions that run on hardware."
+    },
+    {
+      "id": "gst104-q086",
+      "courseCode": "GST104",
+      "topic": "Software",
+      "questionText": "Which of these is an example of system software?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Microsoft Word"
+        },
+        {
+          "id": "b",
+          "text": "Operating System"
+        },
+        {
+          "id": "c",
+          "text": "Adobe Photoshop"
+        },
+        {
+          "id": "d",
+          "text": "Google Chrome"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "An Operating System manages hardware and software resources, making it system software."
+    },
+    {
+      "id": "gst104-q087",
+      "courseCode": "GST104",
+      "topic": "Software",
+      "questionText": "Which of these is an example of application software?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Windows OS"
+        },
+        {
+          "id": "b",
+          "text": "Linux"
+        },
+        {
+          "id": "c",
+          "text": "Microsoft Excel"
+        },
+        {
+          "id": "d",
+          "text": "BIOS"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Microsoft Excel is application software designed for a specific user task."
+    },
+    {
+      "id": "gst104-q088",
+      "courseCode": "GST104",
+      "topic": "Internet",
+      "questionText": "WWW stands for:",
+      "options": [
+        {
+          "id": "a",
+          "text": "World Wide Web"
+        },
+        {
+          "id": "b",
+          "text": "World Wide Wire"
+        },
+        {
+          "id": "c",
+          "text": "Web Wide World"
+        },
+        {
+          "id": "d",
+          "text": "World Web Wire"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "WWW stands for World Wide Web, the system of interlinked web pages."
+    },
+    {
+      "id": "gst104-q089",
+      "courseCode": "GST104",
+      "topic": "Internet",
+      "questionText": "Which protocol is primarily used for browsing websites?",
+      "options": [
+        {
+          "id": "a",
+          "text": "FTP"
+        },
+        {
+          "id": "b",
+          "text": "HTTP/HTTPS"
+        },
+        {
+          "id": "c",
+          "text": "SMTP"
+        },
+        {
+          "id": "d",
+          "text": "TCP only"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "HTTP/HTTPS is the protocol used to transfer web pages between servers and browsers."
+    },
+    {
+      "id": "gst104-q090",
+      "courseCode": "GST104",
+      "topic": "Internet",
+      "questionText": "What does \"URL\" stand for?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Uniform Resource Locator"
+        },
+        {
+          "id": "b",
+          "text": "Universal Reference Link"
+        },
+        {
+          "id": "c",
+          "text": "Unified Resource List"
+        },
+        {
+          "id": "d",
+          "text": "Uniform Reference Locator"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "URL stands for Uniform Resource Locator, the address used to access web resources."
+    },
+    {
+      "id": "gst104-q091",
+      "courseCode": "GST104",
+      "topic": "Security",
+      "questionText": "Which of the following best describes a computer virus?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A beneficial software update"
+        },
+        {
+          "id": "b",
+          "text": "A malicious program designed to disrupt or damage a system"
+        },
+        {
+          "id": "c",
+          "text": "A type of hardware"
+        },
+        {
+          "id": "d",
+          "text": "A network protocol"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "A computer virus is malicious software that can damage or disrupt systems and spread between them."
+    },
+    {
+      "id": "gst104-q092",
+      "courseCode": "GST104",
+      "topic": "Security",
+      "questionText": "What is the primary purpose of an antivirus program?",
+      "options": [
+        {
+          "id": "a",
+          "text": "To speed up the internet"
+        },
+        {
+          "id": "b",
+          "text": "To detect and remove malicious software"
+        },
+        {
+          "id": "c",
+          "text": "To create documents"
+        },
+        {
+          "id": "d",
+          "text": "To manage files only"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Antivirus software is designed to detect, block, and remove malware."
+    },
+    {
+      "id": "gst104-q093",
+      "courseCode": "GST104",
+      "topic": "Networking",
+      "questionText": "A network that connects computers within a small geographic area, such as an office, is called:",
+      "options": [
+        {
+          "id": "a",
+          "text": "WAN"
+        },
+        {
+          "id": "b",
+          "text": "LAN"
+        },
+        {
+          "id": "c",
+          "text": "MAN"
+        },
+        {
+          "id": "d",
+          "text": "VPN"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "A Local Area Network (LAN) covers a small area like a single building or office."
+    },
+    {
+      "id": "gst104-q094",
+      "courseCode": "GST104",
+      "topic": "Networking",
+      "questionText": "WAN stands for:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wide Area Network"
+        },
+        {
+          "id": "b",
+          "text": "Wireless Area Network"
+        },
+        {
+          "id": "c",
+          "text": "Web Access Network"
+        },
+        {
+          "id": "d",
+          "text": "Wide Access Node"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "WAN stands for Wide Area Network, spanning large geographic distances."
+    },
+    {
+      "id": "gst104-q095",
+      "courseCode": "GST104",
+      "topic": "Internet",
+      "questionText": "Which of the following is a common cloud storage service?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Google Drive"
+        },
+        {
+          "id": "b",
+          "text": "Microsoft Word"
+        },
+        {
+          "id": "c",
+          "text": "Adobe Reader"
+        },
+        {
+          "id": "d",
+          "text": "VLC Media Player"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Google Drive is a cloud-based storage service for saving and sharing files online."
+    },
+    {
+      "id": "gst104-q096",
+      "courseCode": "GST104",
+      "topic": "Data Units",
+      "questionText": "The smallest unit of data in a computer is called a:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Byte"
+        },
+        {
+          "id": "b",
+          "text": "Bit"
+        },
+        {
+          "id": "c",
+          "text": "Nibble"
+        },
+        {
+          "id": "d",
+          "text": "Kilobyte"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "A bit (binary digit) is the smallest unit of data, representing a 0 or 1."
+    },
+    {
+      "id": "gst104-q097",
+      "courseCode": "GST104",
+      "topic": "Data Units",
+      "questionText": "How many bits make up one byte?",
+      "options": [
+        {
+          "id": "a",
+          "text": "4"
+        },
+        {
+          "id": "b",
+          "text": "8"
+        },
+        {
+          "id": "c",
+          "text": "16"
+        },
+        {
+          "id": "d",
+          "text": "32"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "One byte is made up of 8 bits."
+    },
+    {
+      "id": "gst104-q098",
+      "courseCode": "GST104",
+      "topic": "Security",
+      "questionText": "Which of the following best defines \"cybersecurity\"?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The study of computer hardware only"
+        },
+        {
+          "id": "b",
+          "text": "Practices and measures to protect systems, networks, and data from digital attacks"
+        },
+        {
+          "id": "c",
+          "text": "The design of computer software"
+        },
+        {
+          "id": "d",
+          "text": "The process of typing faster"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Cybersecurity involves protecting systems, networks, and data from digital threats and attacks."
+    },
+    {
+      "id": "gst104-q099",
+      "courseCode": "GST104",
+      "topic": "Internet",
+      "questionText": "An email address typically contains which symbol to separate the username from the domain?",
+      "options": [
+        {
+          "id": "a",
+          "text": "#"
+        },
+        {
+          "id": "b",
+          "text": "@"
+        },
+        {
+          "id": "c",
+          "text": "&"
+        },
+        {
+          "id": "d",
+          "text": "%"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The \"@\" symbol separates the username from the domain name in an email address."
+    },
+    {
+      "id": "gst104-q100",
+      "courseCode": "GST104",
+      "topic": "Security",
+      "questionText": "Which of the following is considered good practice for password security?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Using the same simple password everywhere"
+        },
+        {
+          "id": "b",
+          "text": "Sharing your password with friends"
+        },
+        {
+          "id": "c",
+          "text": "Using a strong, unique password with a mix of characters"
+        },
+        {
+          "id": "d",
+          "text": "Writing your password on a sticky note on your monitor"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Strong, unique passwords with mixed character types are harder for attackers to guess or crack."
+    }
+  ]
+}

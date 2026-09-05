@@ -1,0 +1,574 @@
+# CBT Master — Complete Backend Reference
+
+Stack: **Node.js 24 LTS + Express 5 + TypeScript + Prisma 8 + Supabase (Auth + Postgres)**
+Payments: **Paystack**
+Last verified against package registries: **August 2026**
+
+---
+
+## 1. Stack Justification (brief — this is already decided)
+
+| Concern | Why this stack |
+|---|---|
+| Performance | Express 5 + Node 24 is more than sufficient for a CBT app's request volume (short-lived JSON requests, not compute-heavy). |
+| Scalability | Supabase Postgres scales vertically first (fine for years), and your Express layer is stateless — horizontally scalable behind any load balancer. |
+| Security | Supabase Auth offloads password storage, token issuance, and OTP flows to a security team whose full-time job this is, instead of you hand-rolling it. |
+| Dev experience | You already know JS/TS from Flutter/Vue work — no new language. Prisma gives type-safe queries and migrations. |
+| DB compatibility | Supabase *is* Postgres — Prisma talks to it exactly like any Postgres instance. |
+| Long-term maintainability | Prisma schema + migrations is the single source of truth for your data model, versioned in git. |
+
+**Alternative considered and rejected:** Using Supabase's auto-generated REST/GraphQL API directly from Flutter (no Express layer at all). Rejected because your CBT state machine (Step 6 below) needs server-side business logic — timer enforcement, idempotent submission, score computation — that a thin auto-generated CRUD API cannot safely enforce. Express is your business-logic layer; Supabase is your data + identity layer.
+
+---
+
+## 2. Dependencies (verified current, August 2026)
+
+| Package | Version | Purpose | Install |
+|---|---|---|---|
+| `express` | `^5.2.1` | HTTP server/routing | `npm i express` |
+| `typescript` | `^5.x` (latest — run `npm view typescript version` to confirm) | Type safety | `npm i -D typescript` |
+| `prisma` | `^8.x` (latest major, ships native Supabase/RLS support) | ORM + migrations | `npm i -D prisma` |
+| `@prisma/client` | matches `prisma` version | Generated query client | `npm i @prisma/client` |
+| `@supabase/supabase-js` | `^2.112.x` | Server-side Supabase client (auth verification, admin calls) | `npm i @supabase/supabase-js` |
+| `zod` | `^4.x` (latest) | Request body/param validation | `npm i zod` |
+| `helmet` | latest | Secure HTTP headers | `npm i helmet` |
+| `cors` | latest | CORS handling | `npm i cors` |
+| `express-rate-limit` | latest | Rate limiting | `npm i express-rate-limit` |
+| `pino` + `pino-http` | latest | Structured logging | `npm i pino pino-http` |
+| `dotenv` | latest | Env var loading (dev only; Node 24 also supports `--env-file`) | `npm i dotenv` |
+| `axios` | latest | Calling Paystack's REST API | `npm i axios` |
+| `uuid` | latest | Idempotency keys where not client-supplied | `npm i uuid` |
+
+Node.js: use **24.x (current Active LTS, "Krypton", supported through May 2028)**. Avoid Node 20 — it reached end-of-life April 2026 and `@supabase/supabase-js` has already dropped support for it.
+
+Do not install `bcrypt` or a JWT-signing library — Supabase Auth handles password hashing and token issuance; your backend only *verifies* tokens, never issues them.
+
+---
+
+## 3. Project Structure
+
+```
+cbt-master-backend/
+├── src/
+│   ├── config/
+│   │   ├── env.ts              # validated env vars (zod schema)
+│   │   ├── prisma.ts           # Prisma client singleton
+│   │   └── supabase.ts         # Supabase admin client singleton
+│   ├── middleware/
+│   │   ├── auth.ts             # verifies Supabase JWT, attaches req.user
+│   │   ├── requireRole.ts      # admin role gate
+│   │   ├── errorHandler.ts     # centralized error responses
+│   │   └── rateLimiters.ts
+│   ├── modules/
+│   │   ├── users/
+│   │   ├── courses/
+│   │   ├── questions/
+│   │   ├── attempts/           # the CBT state machine — most important folder
+│   │   ├── subscriptions/
+│   │   ├── payments/
+│   │   ├── analytics/
+│   │   ├── notifications/
+│   │   └── admin/
+│   │       (each module: routes.ts, controller.ts, service.ts, validation.ts)
+│   ├── lib/
+│   │   └── idempotency.ts
+│   └── app.ts                  # express app assembly
+├── prisma/
+│   └── schema.prisma
+├── .env
+├── tsconfig.json
+└── package.json
+```
+
+Each module keeps the same shape: **routes → controller (parses req, calls service, shapes response) → service (business logic, talks to Prisma)**. Validation happens at the top of the controller via a Zod schema, before anything touches the database.
+
+---
+
+## 4. Supabase Setup, Step by Step
+
+1. **Create the project** at supabase.com → New Project → choose a region close to your users (pick one in Europe or a Nigeria-adjacent region if offered — check current Supabase region list, it changes).
+2. **Grab credentials**: Project Settings → API gives you `SUPABASE_URL`, the `anon`/publishable key (for the Flutter app, if it ever talks to Supabase directly), and the `service_role` key (backend only — never ship this in the app).
+3. **Database connection string**: Project Settings → Database → use the **connection pooler** URI (port 6543, `pgbouncer=true`) for `DATABASE_URL` in Prisma, since serverless/many-connection environments exhaust direct Postgres connections fast. Use the direct connection (port 5432) as `DIRECT_URL` for running migrations.
+4. **Auth settings**: Authentication → Providers → enable Email. Authentication → Email Templates → customize the OTP/reset emails (or configure a custom SMTP provider — Supabase's default SMTP has template customization limits on the Free plan as of mid-2026).
+5. **Row Level Security**: Enable RLS on every table (Supabase enables it by default on tables created via the dashboard, but Prisma-created tables via raw migration do **not** get RLS automatically — you must enable and write policies explicitly). Since your Express backend uses the `service_role` key (which bypasses RLS entirely), RLS's real purpose here is a **safety net** in case the Flutter app ever queries Supabase directly (e.g., for Realtime notifications). Minimum policy set:
+   - `profiles`: user can `SELECT`/`UPDATE` only their own row (`auth.uid() = id`).
+   - `attempts`, `attempt_answers`, `notifications`: user can `SELECT` only rows where `user_id = auth.uid()`. No direct `INSERT`/`UPDATE` from the client at all — those must go through your Express API so the state machine rules are enforced.
+6. **Storage** (optional, for course thumbnails/profile pictures): create a bucket, set it private, and generate signed URLs from your backend rather than making the bucket public.
+
+### Supabase client setup (`src/config/supabase.ts`)
+```typescript
+import { createClient } from '@supabase/supabase-js';
+import { env } from './env';
+
+// Service-role client: full DB/auth access, backend-only, never expose this key to Flutter.
+export const supabaseAdmin = createClient(env.SUPABASE_URL, env.SUPABASE_SERVICE_ROLE_KEY, {
+  auth: { autoRefreshToken: false, persistSession: false },
+});
+```
+
+### Auth verification middleware (`src/middleware/auth.ts`)
+```typescript
+import { Request, Response, NextFunction } from 'express';
+import { supabaseAdmin } from '../config/supabase';
+
+export interface AuthedRequest extends Request {
+  user?: { id: string; email?: string };
+}
+
+export async function requireAuth(req: AuthedRequest, res: Response, next: NextFunction) {
+  const authHeader = req.headers.authorization;
+  if (!authHeader?.startsWith('Bearer ')) {
+    return res.status(401).json({ error: 'Missing or malformed Authorization header' });
+  }
+  const token = authHeader.slice(7);
+
+  const { data, error } = await supabaseAdmin.auth.getUser(token);
+  if (error || !data.user) {
+    return res.status(401).json({ error: 'Invalid or expired session' });
+  }
+
+  req.user = { id: data.user.id, email: data.user.email };
+  next();
+}
+```
+
+Every protected route uses this middleware, then reads `req.user.id` to scope all queries — never trust a `userId` sent in the request body.
+
+---
+
+## 5. Database Schema (Prisma + raw SQL)
+
+```prisma
+// prisma/schema.prisma
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider  = "postgresql"
+  url       = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
+}
+
+model Profile {
+  id        String   @id @db.Uuid   // matches Supabase auth.users.id
+  name      String?
+  role      String   @default("student") // "student" | "admin"
+  createdAt DateTime @default(now())
+
+  attempts      Attempt[]
+  subscriptions Subscription[]
+  notifications Notification[]
+
+  @@map("profiles")
+}
+
+model Course {
+  id          String   @id @default(uuid()) @db.Uuid
+  code        String   @unique   // e.g. "GST101"
+  title       String
+  description String?
+  isFree      Boolean  @default(false)
+  createdAt   DateTime @default(now())
+
+  questions     Question[]
+  attempts      Attempt[]
+  subscriptions Subscription[]
+
+  @@map("courses")
+}
+
+model Question {
+  id              String   @id @default(uuid()) @db.Uuid
+  courseId        String   @db.Uuid
+  course          Course   @relation(fields: [courseId], references: [id])
+  topic           String?
+  questionText    String
+  options         Json     // [{ id: "a", text: "..." }, ...]
+  correctOptionId String
+  explanation     String?
+  createdAt       DateTime @default(now())
+
+  @@index([courseId])
+  @@map("questions")
+}
+
+enum AttemptStatus {
+  IN_PROGRESS
+  PAUSED
+  SUBMITTED
+  GRADED
+  EXPIRED
+}
+
+model Attempt {
+  id               String        @id @default(uuid()) @db.Uuid
+  userId           String        @db.Uuid
+  profile          Profile       @relation(fields: [userId], references: [id])
+  courseId         String        @db.Uuid
+  course           Course        @relation(fields: [courseId], references: [id])
+  status           AttemptStatus @default(IN_PROGRESS)
+  questionSnapshot Json          // frozen question set at start time, no answers
+  score            Int?
+  startedAt        DateTime      @default(now())
+  expiresAt        DateTime
+  submittedAt      DateTime?
+  idempotencyKey   String?       @unique // guards duplicate submit calls
+
+  answers AttemptAnswer[]
+
+  @@index([userId])
+  @@index([courseId])
+  @@map("attempts")
+}
+
+model AttemptAnswer {
+  id               String   @id @default(uuid()) @db.Uuid
+  attemptId        String   @db.Uuid
+  attempt          Attempt  @relation(fields: [attemptId], references: [id])
+  questionId       String   @db.Uuid
+  selectedOptionId String
+  answeredAt       DateTime @default(now())
+
+  @@unique([attemptId, questionId]) // one answer per question per attempt — enables upsert
+  @@map("attempt_answers")
+}
+
+enum SubscriptionStatus {
+  ACTIVE
+  EXPIRED
+}
+
+model Subscription {
+  id        String             @id @default(uuid()) @db.Uuid
+  userId    String             @db.Uuid
+  profile   Profile            @relation(fields: [userId], references: [id])
+  courseId  String             @db.Uuid
+  course    Course             @relation(fields: [courseId], references: [id])
+  startedAt DateTime           @default(now())
+  expiresAt DateTime
+  status    SubscriptionStatus @default(ACTIVE)
+
+  @@unique([userId, courseId])
+  @@map("subscriptions")
+}
+
+model Notification {
+  id        String   @id @default(uuid()) @db.Uuid
+  userId    String   @db.Uuid
+  profile   Profile  @relation(fields: [userId], references: [id])
+  title     String
+  body      String
+  read      Boolean  @default(false)
+  createdAt DateTime @default(now())
+
+  @@index([userId])
+  @@map("notifications")
+}
+```
+
+Equivalent raw SQL (if you ever need to inspect/run it directly in the Supabase SQL editor) is generated automatically by `npx prisma migrate dev` — don't hand-write parallel SQL, it will drift from the schema.
+
+**RLS policy example** (run in Supabase SQL editor, after `prisma migrate deploy` has created the tables):
+```sql
+alter table attempts enable row level security;
+
+create policy "Users can read their own attempts"
+on attempts for select
+using (auth.uid() = "userId");
+
+-- Deliberately no insert/update policy for the anon/authenticated role —
+-- all writes to attempts must go through the Express service-role backend.
+```
+
+---
+
+## 6. Authentication Flow
+
+```
+Flutter app
+   │  supabase.auth.signUp() / signInWithPassword()   ← calls Supabase directly, OR
+   │  POST /auth/register / /auth/login               ← calls your Express wrapper
+   ▼
+Supabase Auth issues { access_token, refresh_token }
+   │
+   ▼
+Flutter stores tokens, attaches `Authorization: Bearer <access_token>`
+to every subsequent request to your Express API
+   │
+   ▼
+Express `requireAuth` middleware calls supabaseAdmin.auth.getUser(token)
+   │
+   ▼
+req.user.id available to every controller/service
+```
+
+**Decision point:** you can let Flutter call Supabase Auth *directly* (simpler, one less hop) and only send the resulting access token to your Express API for everything else. Or you can proxy auth through Express (as in Step 2's prompts) if you want a single API surface for the mobile team. Either works; direct-to-Supabase is slightly less code to maintain.
+
+On first login, create the matching `Profile` row (id = Supabase user id) if it doesn't exist yet — this is a one-time "provisioning" step you can put in the login controller or in a Supabase Auth webhook (Database Webhooks → `on auth.users insert`).
+
+---
+
+## 7. API Endpoints (reference list)
+
+| Method | Path | Auth | Purpose |
+|---|---|---|---|
+| GET | /health | none | Liveness check |
+| POST | /auth/register | none | Create account (or handled client-side via Supabase) |
+| POST | /auth/login | none | Sign in |
+| POST | /auth/forgot-password | none | Trigger reset email |
+| GET | /users/me | ✅ | Get profile |
+| PATCH | /users/me | ✅ | Update profile |
+| GET | /courses | optional | List courses |
+| GET | /courses/:courseId | optional | Course detail + access status |
+| GET | /courses/:courseId/questions | ✅ | Questions, no answers |
+| POST | /courses/:courseId/attempts | ✅ | Start attempt |
+| PATCH | /attempts/:attemptId/answers/:questionId | ✅ | Autosave answer |
+| POST | /attempts/:attemptId/pause | ✅ | Pause |
+| POST | /attempts/:attemptId/resume | ✅ | Resume |
+| POST | /attempts/:attemptId/submit | ✅ | Grade & lock |
+| GET | /results/:attemptId | ✅ | Score summary |
+| GET | /attempts/:attemptId/review | ✅ | Full review (GRADED only) |
+| GET | /history | ✅ | Past attempts |
+| GET | /analytics/* | ✅ | Progress/weak-topics/streak/badges |
+| POST | /purchase/:courseId/initiate | ✅ | Start Paystack transaction |
+| POST | /webhooks/paystack | signature-verified, not user-auth | Grant subscription |
+| GET | /notifications | ✅ | List |
+| PATCH | /notifications/:id/read | ✅ | Mark read |
+| CRUD | /admin/courses, /admin/questions | ✅ admin | Content management |
+
+Full request/response bodies follow the shapes already defined in the Prisma models above — e.g. `POST /courses/:courseId/attempts` returns `{ attemptId, questions: [...], expiresAt }`.
+
+---
+
+## 8. The Core Module: Attempts (full reference implementation)
+
+`src/modules/attempts/service.ts`
+```typescript
+import { prisma } from '../../config/prisma';
+import { AttemptStatus } from '@prisma/client';
+
+const ATTEMPT_DURATION_MINUTES = 45;
+
+export async function startAttempt(userId: string, courseId: string) {
+  const questions = await prisma.question.findMany({ where: { courseId } });
+  if (questions.length === 0) throw new Error('No questions available for this course');
+
+  // Freeze the question set — no correct answers included in the snapshot shown to the client.
+  const snapshot = questions.map(q => ({
+    id: q.id,
+    questionText: q.questionText,
+    options: q.options,
+  }));
+
+  const expiresAt = new Date(Date.now() + ATTEMPT_DURATION_MINUTES * 60_000);
+
+  const attempt = await prisma.attempt.create({
+    data: { userId, courseId, questionSnapshot: snapshot, expiresAt },
+  });
+
+  return { attemptId: attempt.id, questions: snapshot, expiresAt };
+}
+
+export async function saveAnswer(userId: string, attemptId: string, questionId: string, selectedOptionId: string) {
+  const attempt = await prisma.attempt.findFirstOrThrow({ where: { id: attemptId, userId } });
+
+  if (!['IN_PROGRESS', 'PAUSED'].includes(attempt.status)) {
+    throw new Error('Attempt is no longer accepting answers');
+  }
+  if (new Date() > attempt.expiresAt) {
+    throw new Error('Attempt has expired');
+  }
+
+  // Upsert on the (attemptId, questionId) unique constraint — safe to call repeatedly (autosave).
+  await prisma.attemptAnswer.upsert({
+    where: { attemptId_questionId: { attemptId, questionId } },
+    update: { selectedOptionId, answeredAt: new Date() },
+    create: { attemptId, questionId, selectedOptionId },
+  });
+}
+
+export async function submitAttempt(userId: string, attemptId: string, idempotencyKey: string) {
+  // If this exact idempotency key was already used, return the prior result instead of re-grading.
+  const existing = await prisma.attempt.findUnique({ where: { idempotencyKey } });
+  if (existing && existing.id === attemptId) {
+    return { attemptId: existing.id, status: existing.status, score: existing.score };
+  }
+
+  const attempt = await prisma.attempt.findFirstOrThrow({ where: { id: attemptId, userId } });
+
+  if (attempt.status === 'GRADED') {
+    return { attemptId: attempt.id, status: attempt.status, score: attempt.score };
+  }
+  if (!['IN_PROGRESS', 'PAUSED'].includes(attempt.status)) {
+    throw new Error('Attempt cannot be submitted from its current state');
+  }
+
+  const isExpired = new Date() > attempt.expiresAt;
+
+  const [answers, questions] = await Promise.all([
+    prisma.attemptAnswer.findMany({ where: { attemptId } }),
+    prisma.question.findMany({ where: { courseId: attempt.courseId } }),
+  ]);
+
+  const correctMap = new Map(questions.map(q => [q.id, q.correctOptionId]));
+  const score = answers.filter(a => correctMap.get(a.questionId) === a.selectedOptionId).length;
+
+  const updated = await prisma.attempt.update({
+    where: { id: attemptId },
+    data: {
+      status: isExpired ? 'EXPIRED' : 'GRADED',
+      score,
+      submittedAt: new Date(),
+      idempotencyKey,
+    },
+  });
+
+  return { attemptId: updated.id, status: updated.status, score: updated.score };
+}
+```
+
+This is the piece worth reading line by line — every rule we discussed (server-side timer, idempotent submit, immutable snapshot, upsert-based autosave) is enforced here, not in the controller or the client.
+
+---
+
+## 9. Payment Integration (Paystack)
+
+**Why Paystack over Flutterwave/Stripe:** your users are Nigerian students paying in Naira for small amounts (₦500-class transactions) — Paystack has the strongest local card/bank-transfer/USSD coverage and the most straightforward webhook model for this use case. Stripe doesn't support NGN payouts well; Flutterwave is a reasonable second choice if you ever need multi-country expansion.
+
+**Env vars:** `PAYSTACK_SECRET_KEY`, `PAYSTACK_PUBLIC_KEY` (test keys first, live keys only after going live in the Paystack dashboard).
+
+`src/modules/payments/service.ts`
+```typescript
+import axios from 'axios';
+import crypto from 'crypto';
+import { prisma } from '../../config/prisma';
+import { env } from '../../config/env';
+
+const paystack = axios.create({
+  baseURL: 'https://api.paystack.co',
+  headers: { Authorization: `Bearer ${env.PAYSTACK_SECRET_KEY}` },
+});
+
+export async function initiatePurchase(userId: string, courseId: string, email: string) {
+  const course = await prisma.course.findUniqueOrThrow({ where: { id: courseId } });
+  const amountKobo = 50000; // ₦500 — pull from Course pricing field in production
+
+  const { data } = await paystack.post('/transaction/initialize', {
+    email,
+    amount: amountKobo,
+    metadata: { userId, courseId },
+  });
+
+  return { checkoutUrl: data.data.authorization_url, reference: data.data.reference };
+}
+
+// Called from the webhook route — the ONLY place that grants access.
+export async function handlePaystackWebhook(rawBody: Buffer, signature: string) {
+  const expectedSig = crypto
+    .createHmac('sha512', env.PAYSTACK_SECRET_KEY)
+    .update(rawBody)
+    .digest('hex');
+
+  if (expectedSig !== signature) {
+    throw new Error('Invalid webhook signature');
+  }
+
+  const event = JSON.parse(rawBody.toString());
+  if (event.event !== 'charge.success') return;
+
+  const { userId, courseId } = event.data.metadata;
+  const expiresAt = new Date(Date.now() + 90 * 24 * 60 * 60_000); // 90-day access
+
+  await prisma.subscription.upsert({
+    where: { userId_courseId: { userId, courseId } },
+    update: { expiresAt, status: 'ACTIVE' },
+    create: { userId, courseId, expiresAt, status: 'ACTIVE' },
+  });
+}
+```
+
+The webhook route needs the **raw request body** (not JSON-parsed) to verify the HMAC signature — mount it with `express.raw({ type: 'application/json' })` on that specific route, before your global `express.json()` middleware applies to everything else.
+
+---
+
+## 10. Complete Request Flow (example: purchasing and taking a course)
+
+```
+1. Flutter → POST /purchase/:courseId/initiate (with Bearer token)
+2. Express → requireAuth verifies token via Supabase → gets userId
+3. Express → Paystack API → returns checkout URL
+4. Flutter opens checkout URL in webview → student pays
+5. Paystack → POST /webhooks/paystack (server-to-server, signed)
+6. Express verifies signature → creates/extends Subscription in Postgres
+7. Flutter polls GET /courses/:courseId → sees access: "ACTIVE"
+8. Flutter → POST /courses/:courseId/attempts → Express snapshots questions, creates Attempt
+9. Flutter autosaves answers via PATCH .../answers/:questionId as the student progresses
+10. Flutter → POST /attempts/:attemptId/submit → Express grades server-side, returns score
+11. Flutter → GET /results/:attemptId and /attempts/:attemptId/review
+```
+
+---
+
+## 11. Security Checklist
+
+- [ ] `helmet()` applied globally for secure headers
+- [ ] `cors()` restricted to your Flutter app's actual origin(s)/scheme, not `*`
+- [ ] `express-rate-limit` on `/auth/*` and `/webhooks/*` routes specifically
+- [ ] All input validated with Zod before touching the database (blocks malformed/oversized payloads)
+- [ ] Prisma parameterizes all queries automatically — no raw SQL string concatenation, ever
+- [ ] Paystack webhook signature verified on every call, using the raw body
+- [ ] `service_role` Supabase key stored only in Express env vars, never sent to Flutter or committed to git
+- [ ] Generic error messages sent to clients (`"Invalid credentials"`, not raw DB error text) — log full details server-side only
+- [ ] RLS enabled on every Supabase table as a defense-in-depth layer even though Express uses the service key
+- [ ] `.env` in `.gitignore`; secrets injected via your host's environment variable settings in production
+
+---
+
+## 12. From-Scratch Setup Checklist
+
+1. `mkdir cbt-master-backend && cd $_ && npm init -y`
+2. `npm i express @supabase/supabase-js zod helmet cors express-rate-limit pino pino-http axios uuid`
+3. `npm i -D typescript prisma @prisma/client @types/express @types/node ts-node-dev`
+4. `npx tsc --init` — set `target: ES2022`, `module: NodeNext`, `strict: true`
+5. Create the folder structure from Section 3
+6. `npx prisma init` → paste schema from Section 5 → set `DATABASE_URL`/`DIRECT_URL` in `.env`
+7. Create the Supabase project (Section 4), enable Email auth
+8. `npx prisma migrate dev --name init`
+9. Enable RLS + write policies (Section 5) in the Supabase SQL editor
+10. Build `config/supabase.ts` and `middleware/auth.ts` (Section 4)
+11. Build modules in the order from our earlier step-by-step plan: users → courses → questions → **attempts** → results → subscriptions → payments → analytics → notifications → offline sync → admin
+12. Test each endpoint with Postman/Thunder Client before wiring Flutter to it
+13. Add `errorHandler.ts` as the last middleware in `app.ts`
+14. Connect Flutter: base URL + token storage + attach `Authorization` header via an HTTP interceptor
+15. Manually test the full flow in Section 10 end to end, including a deliberately expired attempt and a duplicate submit call
+16. Set up Paystack test-mode keys, complete a full test transaction, confirm webhook fires and Subscription updates
+17. Switch Paystack to live keys only after test-mode flow is fully verified
+18. Deploy (Section 13)
+19. Point Paystack's webhook URL at your production domain
+20. Monitor logs (pino output) for the first real transactions
+
+---
+
+## 13. Deployment
+
+- **Host options**: Railway, Render, or Fly.io all support Node + persistent processes with simple env var management and are reasonable defaults for a solo-founder Nigerian app; avoid pure serverless (Vercel functions) for this backend specifically, since the Attempt state machine benefits from a long-running process for things like scheduled expiry sweeps later.
+- **Database**: stays on Supabase — no separate DB hosting needed.
+- **Env vars in production**: `DATABASE_URL`, `DIRECT_URL`, `SUPABASE_URL`, `SUPABASE_SERVICE_ROLE_KEY`, `PAYSTACK_SECRET_KEY`, `NODE_ENV=production`.
+- **CORS**: lock to your actual mobile app's needs — Flutter mobile apps typically don't hit CORS restrictions (those apply to browsers), but if you ever add a web admin panel, restrict `cors()` to its exact origin.
+- **Webhook URL**: update Paystack dashboard → Settings → API Keys & Webhooks with your production `/webhooks/paystack` URL after deployment.
+- **Build/start**: `"build": "tsc"`, `"start": "node dist/app.js"` — run `npx prisma migrate deploy` (not `migrate dev`) as part of your deploy step.
+- **Monitoring**: ship `pino` logs to your host's log viewer initially; add a proper log aggregator (e.g. Better Stack, Axiom) once you have real users.
+
+---
+
+## 14. Common Errors You'll Likely Hit
+
+| Symptom | Likely cause |
+|---|---|
+| Prisma "too many connections" | Using the direct DB URL instead of the pooler URL for `DATABASE_URL` |
+| `requireAuth` always returns 401 | Client not sending `Authorization: Bearer <token>`, or sending the refresh token instead of the access token |
+| Paystack webhook signature never matches | Body already parsed as JSON before signature check — must use `express.raw()` on that route |
+| Duplicate scores on double-submit | Idempotency key not being generated/sent by the client, or not enforced as `@unique` in Prisma |
+| RLS blocks your own Express queries | You're using the `anon`/publishable key instead of `service_role` in your backend Supabase client |
+| Attempt review shows different questions than what was answered | Querying live `Question` table for review instead of the frozen `questionSnapshot` |

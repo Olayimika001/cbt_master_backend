@@ -1,0 +1,22 @@
+[
+  {
+    "id": "6017f36c-01dc-4395-9124-a4e78c521f3d",
+    "name": "Olayimika Yusuf",
+    "full_name": "Olayimika Yusuf",
+    "email": "student@cbtmaster.app",
+    "phone": "+2349029592131",
+    "date_of_birth": "2005-20-11",
+    "gender": "Female",
+    "university": "University of Lagos",
+    "course_of_study": "Computer Science",
+    "role": "student",
+    "createdAt": "2026-08-31T04:35:27.544Z",
+    "coursesUnlocked": 4,
+    "courses_unlocked": 4,
+    "testsTaken": 0,
+    "tests_taken": 0,
+    "averageScore": 0,
+    "average_score": 0,
+    "updatedAt": "2026-08-31T04:39:42.277Z"
+  }
+]

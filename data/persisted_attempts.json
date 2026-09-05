@@ -1,0 +1,2877 @@
+[
+  {
+    "id": "b111d1f5-fd7e-447f-ac6e-52f8a3d27f8a",
+    "userId": "8fd7a9db-b5cb-4547-9e54-7a8c30c11cad",
+    "courseId": "e0f57d0f-e2ef-48db-8b6c-c7ac3455eb14",
+    "courseCode": "GST101",
+    "courseTitle": "Use of English & Communication Skills",
+    "questions": [
+      {
+        "id": "1ab637de-bfe6-42ea-a1dd-09e24f5445b8",
+        "question_text": "Which of the following is NOT a part of speech?",
+        "questionText": "Which of the following is NOT a part of speech?",
+        "options": [
+          "Noun",
+          "Verb",
+          "Sentence",
+          "Adjective"
+        ],
+        "selected_option_index": null,
+        "selectedOptionIndex": null,
+        "correct_option_index": 2,
+        "correctOptionIndex": 2,
+        "is_correct": false,
+        "isCorrect": false,
+        "explanation": "A sentence is a grammatical unit built from parts of speech, not a part of speech itself."
+      },
+      {
+        "id": "03be1ab1-7bac-4063-ad14-a2755071cc45",
+        "question_text": "Choose the correct plural form of \"child\".",
+        "questionText": "Choose the correct plural form of \"child\".",
+        "options": [
+          "childs",
+          "childes",
+          "children",
+          "childrens"
+        ],
+        "selected_option_index": null,
+        "selectedOptionIndex": null,
+        "correct_option_index": 2,
+        "correctOptionIndex": 2,
+        "is_correct": false,
+        "isCorrect": false,
+        "explanation": "\"Children\" is the irregular plural of \"child\"."
+      },
+      {
+        "id": "a8afd62c-0312-49f8-ba81-9dbbde35e0ba",
+        "question_text": "Identify the tense: \"She has finished her assignment.\"",
+        "questionText": "Identify the tense: \"She has finished her assignment.\"",
+        "options": [
+          "Simple past",
+          "Present perfect",
+          "Past continuous",
+          "Future perfect"
+        ],
+        "selected_option_index": null,
+        "selectedOptionIndex": null,
+        "correct_option_index": 1,
+        "correctOptionIndex": 1,
+        "is_correct": false,
+        "isCorrect": false,
+        "explanation": "\"Has finished\" uses has/have + past participle, the present perfect structure."
+      },
+      {
+        "id": "a355cbb5-2c3f-4d45-8c66-9648cfc2c87d",
+        "question_text": "Which word is a synonym of \"abundant\"?",
+        "questionText": "Which word is a synonym of \"abundant\"?",
+        "options": [
+          "Scarce",
+          "Plentiful",
+          "Meager",
+          "Rare"
+        ],
+        "selected_option_index": null,
+        "selectedOptionIndex": null,
+        "correct_option_index": 1,
+        "correctOptionIndex": 1,
+        "is_correct": false,
+        "isCorrect": false,
+        "explanation": "\"Plentiful\" means existing in large quantities, matching \"abundant\"."
+      },
+      {
+        "id": "9253063c-507c-4265-ac71-e6dbb3462a34",
+        "question_text": "Which word is an antonym of \"benevolent\"?",
+        "questionText": "Which word is an antonym of \"benevolent\"?",
+        "options": [
+          "Kind",
+          "Generous",
+          "Malevolent",
+          "Charitable"
+        ],
+        "selected_option_index": null,
+        "selectedOptionIndex": null,
+        "correct_option_index": 2,
+        "correctOptionIndex": 2,
+        "is_correct": false,
+        "isCorrect": false,
+        "explanation": "\"Malevolent\" means having ill will, the opposite of \"benevolent\" (kind-hearted)."
+      },
+      {
+        "id": "1d399b97-5957-44ec-b547-28182b12bf80",
+        "question_text": "Choose the correctly spelled word.",
+        "questionText": "Choose the correctly spelled word.",
+        "options": [
+          "Recieve",
+          "Receive",
+          "Receeve",
+          "Receve"
+        ],
+        "selected_option_index": null,
+        "selectedOptionIndex": null,
+        "correct_option_index": 1,
+        "correctOptionIndex": 1,
+        "is_correct": false,
+        "isCorrect": false,
+        "explanation": "The correct spelling follows \"i before e except after c\": Receive."
+      },
+      {
+        "id": "60545712-5102-4a8f-bb5b-fa5b93dcf029",
+        "question_text": "\"The team ___ playing well this season.\" Choose the correct verb.",
+        "questionText": "\"The team ___ playing well this season.\" Choose the correct verb.",
+        "options": [
+          "is",
+          "are",
+          "were",
+          "have"
+        ],
+        "selected_option_index": null,
+        "selectedOptionIndex": null,
+        "correct_option_index": 0,
+        "correctOptionIndex": 0,
+        "is_correct": false,
+        "isCorrect": false,
+        "explanation": "\"Team\" is a collective noun treated as a single unit here, taking the singular verb \"is\"."
+      },
+      {
+        "id": "a3197bd6-918d-45d9-804e-7a29a49971ea",
+        "question_text": "Which of these is a compound sentence?",
+        "questionText": "Which of these is a compound sentence?",
+        "options": [
+          "I went to the market.",
+          "Although it rained, we went out.",
+          "I went to the market, and I bought some fruits.",
+          "Going to the market."
+        ],
+        "selected_option_index": null,
+        "selectedOptionIndex": null,
+        "correct_option_index": 2,
+        "correctOptionIndex": 2,
+        "is_correct": false,
+        "isCorrect": false,
+        "explanation": "A compound sentence joins two independent clauses with a coordinating conjunction such as \"and\"."
+      },
+      {
+        "id": "0f18dc47-d46d-46ed-aeea-4b5312b744a5",
+        "question_text": "What figure of speech is used in \"The wind whispered through the trees\"?",
+        "questionText": "What figure of speech is used in \"The wind whispered through the trees\"?",
+        "options": [
+          "Simile",
+          "Metaphor",
+          "Personification",
+          "Hyperbole"
+        ],
+        "selected_option_index": null,
+        "selectedOptionIndex": null,
+        "correct_option_index": 2,
+        "correctOptionIndex": 2,
+        "is_correct": false,
+        "isCorrect": false,
+        "explanation": "Giving the wind the human ability to \"whisper\" is personification."
+      },
+      {
+        "id": "27704a77-88ab-4b07-ab48-0726c621fc3f",
+        "question_text": "What is the meaning of the idiom \"to break the ice\"?",
+        "questionText": "What is the meaning of the idiom \"to break the ice\"?",
+        "options": [
+          "To start a conversation in a social setting",
+          "To destroy something fragile",
+          "To end a relationship",
+          "To cause an argument"
+        ],
+        "selected_option_index": null,
+        "selectedOptionIndex": null,
+        "correct_option_index": 0,
+        "correctOptionIndex": 0,
+        "is_correct": false,
+        "isCorrect": false,
+        "explanation": "\"Break the ice\" means to ease tension and start conversation, especially with strangers."
+      },
+      {
+        "id": "2c6c60df-0dec-491b-9140-06bf99b9104c",
+        "question_text": "Which punctuation mark is used to indicate direct speech?",
+        "questionText": "Which punctuation mark is used to indicate direct speech?",
+        "options": [
+          "Comma",
+          "Quotation marks",
+          "Semicolon",
+          "Colon"
+        ],
+        "selected_option_index": null,
+        "selectedOptionIndex": null,
+        "correct_option_index": 1,
+        "correctOptionIndex": 1,
+        "is_correct": false,
+        "isCorrect": false,
+        "explanation": "Quotation marks enclose a speaker's exact words."
+      },
+      {
+        "id": "dd2e4cea-2ec9-4fb4-a546-761b56228807",
+        "question_text": "Identify the subject in the sentence: \"The tall man in the blue shirt smiled.\"",
+        "questionText": "Identify the subject in the sentence: \"The tall man in the blue shirt smiled.\"",
+        "options": [
+          "tall man",
+          "The tall man in the blue shirt",
+          "blue shirt",
+          "smiled"
+        ],
+        "selected_option_index": null,
+        "selectedOptionIndex": null,
+        "correct_option_index": 1,
+        "correctOptionIndex": 1,
+        "is_correct": false,
+        "isCorrect": false,
+        "explanation": "The complete subject is the full noun phrase performing the action: \"The tall man in the blue shirt\"."
+      },
+      {
+        "id": "c9949f9e-f437-4293-926c-d633009c2149",
+        "question_text": "Which sentence is grammatically correct?",
+        "questionText": "Which sentence is grammatically correct?",
+        "options": [
+          "Neither of the boys were present.",
+          "Neither of the boys was present.",
+          "Neither of the boys is were present.",
+          "Neither of the boys being present."
+        ],
+        "selected_option_index": null,
+        "selectedOptionIndex": null,
+        "correct_option_index": 1,
+        "correctOptionIndex": 1,
+        "is_correct": false,
+        "isCorrect": false,
+        "explanation": "\"Neither\" is singular and takes a singular verb: \"was\"."
+      },
+      {
+        "id": "20eaaa3d-c4ea-4a88-85cc-629e5e7964f7",
+        "question_text": "Which type of communication involves gestures, facial expressions, and body posture?",
+        "questionText": "Which type of communication involves gestures, facial expressions, and body posture?",
+        "options": [
+          "Verbal communication",
+          "Written communication",
+          "Non-verbal communication",
+          "Formal communication"
+        ],
+        "selected_option_index": null,
+        "selectedOptionIndex": null,
+        "correct_option_index": 2,
+        "correctOptionIndex": 2,
+        "is_correct": false,
+        "isCorrect": false,
+        "explanation": "Non-verbal communication conveys meaning without spoken or written words."
+      },
+      {
+        "id": "e9de761a-2881-4b87-af8a-2112c2c58e11",
+        "question_text": "Which of the following is a proper noun?",
+        "questionText": "Which of the following is a proper noun?",
+        "options": [
+          "city",
+          "river",
+          "Lagos",
+          "teacher"
+        ],
+        "selected_option_index": null,
+        "selectedOptionIndex": null,
+        "correct_option_index": 2,
+        "correctOptionIndex": 2,
+        "is_correct": false,
+        "isCorrect": false,
+        "explanation": "\"Lagos\" names a specific place, making it a proper noun (capitalized)."
+      },
+      {
+        "id": "63cb6fe1-70d2-45f5-b62a-ff74ce7ccfd3",
+        "question_text": "Choose the correct comparative form: \"This book is ___ than that one.\"",
+        "questionText": "Choose the correct comparative form: \"This book is ___ than that one.\"",
+        "options": [
+          "interesting",
+          "more interesting",
+          "most interesting",
+          "interestinger"
+        ],
+        "selected_option_index": null,
+        "selectedOptionIndex": null,
+        "correct_option_index": 1,
+        "correctOptionIndex": 1,
+        "is_correct": false,
+        "isCorrect": false,
+        "explanation": "Multi-syllable adjectives form comparatives with \"more\", not a suffix."
+      },
+      {
+        "id": "76d79703-9823-48f6-b3a3-963fde3049ba",
+        "question_text": "What is the main purpose of a topic sentence in a paragraph?",
+        "questionText": "What is the main purpose of a topic sentence in a paragraph?",
+        "options": [
+          "To conclude the paragraph",
+          "To state the main idea of the paragraph",
+          "To provide examples",
+          "To list references"
+        ],
+        "selected_option_index": null,
+        "selectedOptionIndex": null,
+        "correct_option_index": 1,
+        "correctOptionIndex": 1,
+        "is_correct": false,
+        "isCorrect": false,
+        "explanation": "A topic sentence introduces and summarizes the paragraph's central idea."
+      },
+      {
+        "id": "0d2b60e9-cc47-43a8-98bc-f6b928db6fad",
+        "question_text": "Which of the following is an example of a homophone pair?",
+        "questionText": "Which of the following is an example of a homophone pair?",
+        "options": [
+          "big/large",
+          "their/there",
+          "happy/sad",
+          "run/ran"
+        ],
+        "selected_option_index": null,
+        "selectedOptionIndex": null,
+        "correct_option_index": 1,
+        "correctOptionIndex": 1,
+        "is_correct": false,
+        "isCorrect": false,
+        "explanation": "\"Their\" and \"there\" sound alike but differ in spelling and meaning, making them homophones."
+      },
+      {
+        "id": "84d48c24-6961-4df9-8bf0-8c9c00856958",
+        "question_text": "In formal letter writing, what is the correct way to close a letter that begins with \"Dear Sir/Madam\"?",
+        "questionText": "In formal letter writing, what is the correct way to close a letter that begins with \"Dear Sir/Madam\"?",
+        "options": [
+          "Best wishes",
+          "Yours sincerely",
+          "Yours faithfully",
+          "Cheers"
+        ],
+        "selected_option_index": null,
+        "selectedOptionIndex": null,
+        "correct_option_index": 2,
+        "correctOptionIndex": 2,
+        "is_correct": false,
+        "isCorrect": false,
+        "explanation": "\"Yours faithfully\" is used when the recipient's name is unknown, as with \"Dear Sir/Madam\"."
+      },
+      {
+        "id": "a6ea685a-6ede-46fa-acb0-b122db1d54cc",
+        "question_text": "Which word correctly completes the sentence: \"Each of the students ___ given a textbook.\"?",
+        "questionText": "Which word correctly completes the sentence: \"Each of the students ___ given a textbook.\"?",
+        "options": [
+          "were",
+          "was",
+          "have been",
+          "are"
+        ],
+        "selected_option_index": null,
+        "selectedOptionIndex": null,
+        "correct_option_index": 1,
+        "correctOptionIndex": 1,
+        "is_correct": false,
+        "isCorrect": false,
+        "explanation": "\"Each\" is singular and takes a singular verb: \"was\"."
+      },
+      {
+        "id": "b880335b-33f5-4303-9311-b3d41e0b5955",
+        "question_text": "What is the term for words that sound the same but have different meanings and spellings?",
+        "questionText": "What is the term for words that sound the same but have different meanings and spellings?",
+        "options": [
+          "Synonyms",
+          "Antonyms",
+          "Homophones",
+          "Homonyms"
+        ],
+        "selected_option_index": null,
+        "selectedOptionIndex": null,
+        "correct_option_index": 2,
+        "correctOptionIndex": 2,
+        "is_correct": false,
+        "isCorrect": false,
+        "explanation": "Homophones sound alike but are spelled differently and mean different things."
+      },
+      {
+        "id": "adce3f35-ace2-4477-80a8-f65d0d35771e",
+        "question_text": "Which of these is an example of alliteration?",
+        "questionText": "Which of these is an example of alliteration?",
+        "options": [
+          "She sells seashells by the seashore",
+          "Time is money",
+          "The classroom was a zoo",
+          "It's raining cats and dogs"
+        ],
+        "selected_option_index": null,
+        "selectedOptionIndex": null,
+        "correct_option_index": 0,
+        "correctOptionIndex": 0,
+        "is_correct": false,
+        "isCorrect": false,
+        "explanation": "Alliteration is the repetition of initial consonant sounds, as in the repeated \"s\" sound."
+      },
+      {
+        "id": "7a57b283-4928-4c61-951f-e20d7ab7cacb",
+        "question_text": "Choose the sentence with correct subject-verb agreement.",
+        "questionText": "Choose the sentence with correct subject-verb agreement.",
+        "options": [
+          "The list of items are on the table.",
+          "The list of items is on the table.",
+          "The list of items were on the table.",
+          "The list of items being on the table."
+        ],
+        "selected_option_index": null,
+        "selectedOptionIndex": null,
+        "correct_option_index": 1,
+        "correctOptionIndex": 1,
+        "is_correct": false,
+        "isCorrect": false,
+        "explanation": "The subject is \"list\" (singular), not \"items\", so the verb must be \"is\"."
+      },
+      {
+        "id": "5c86e133-41d5-4fbb-8847-953c2a6e0385",
+        "question_text": "What is the function of an adverb in a sentence?",
+        "questionText": "What is the function of an adverb in a sentence?",
+        "options": [
+          "To name a person, place or thing",
+          "To modify a verb, adjective or another adverb",
+          "To connect clauses",
+          "To show possession"
+        ],
+        "selected_option_index": null,
+        "selectedOptionIndex": null,
+        "correct_option_index": 1,
+        "correctOptionIndex": 1,
+        "is_correct": false,
+        "isCorrect": false,
+        "explanation": "Adverbs describe or modify verbs, adjectives, or other adverbs."
+      },
+      {
+        "id": "753b7f1a-559d-4996-8c53-859e30166c5f",
+        "question_text": "Which of the following best describes \"skimming\" as a reading skill?",
+        "questionText": "Which of the following best describes \"skimming\" as a reading skill?",
+        "options": [
+          "Reading every word carefully",
+          "Reading quickly to get the general idea",
+          "Reading aloud",
+          "Reading to memorize"
+        ],
+        "selected_option_index": null,
+        "selectedOptionIndex": null,
+        "correct_option_index": 1,
+        "correctOptionIndex": 1,
+        "is_correct": false,
+        "isCorrect": false,
+        "explanation": "Skimming means reading rapidly to grasp the overall gist of a text."
+      }
+    ],
+    "answers": {},
+    "status": "GRADED",
+    "startedAt": "2026-08-31T03:37:13.715Z",
+    "expiresAt": "2026-08-31T04:07:13.715Z",
+    "score": 0,
+    "correctAnswers": 0,
+    "incorrectAnswers": 0,
+    "unanswered": 25,
+    "totalQuestions": 25,
+    "scorePercent": 0,
+    "passed": false,
+    "timeTakenSeconds": 300,
+    "submittedAt": "2026-08-31T03:37:16.824Z"
+  },
+  {
+    "id": "4a689b05-1162-42f8-a330-899536bbda1e",
+    "userId": "6017f36c-01dc-4395-9124-a4e78c521f3d",
+    "courseId": "e0f57d0f-e2ef-48db-8b6c-c7ac3455eb14",
+    "courseCode": "GST101",
+    "courseTitle": "Use of English & Communication Skills",
+    "questions": [
+      {
+        "id": "1ab637de-bfe6-42ea-a1dd-09e24f5445b8",
+        "question_text": "Which of the following is NOT a part of speech?",
+        "questionText": "Which of the following is NOT a part of speech?",
+        "options": [
+          "Noun",
+          "Verb",
+          "Sentence",
+          "Adjective"
+        ],
+        "selected_option_index": 2,
+        "selectedOptionIndex": 2,
+        "correct_option_index": 2,
+        "correctOptionIndex": 2,
+        "is_correct": true,
+        "isCorrect": true,
+        "explanation": "A sentence is a grammatical unit built from parts of speech, not a part of speech itself."
+      },
+      {
+        "id": "03be1ab1-7bac-4063-ad14-a2755071cc45",
+        "question_text": "Choose the correct plural form of \"child\".",
+        "questionText": "Choose the correct plural form of \"child\".",
+        "options": [
+          "childs",
+          "childes",
+          "children",
+          "childrens"
+        ],
+        "selected_option_index": 2,
+        "selectedOptionIndex": 2,
+        "correct_option_index": 2,
+        "correctOptionIndex": 2,
+        "is_correct": true,
+        "isCorrect": true,
+        "explanation": "\"Children\" is the irregular plural of \"child\"."
+      },
+      {
+        "id": "a8afd62c-0312-49f8-ba81-9dbbde35e0ba",
+        "question_text": "Identify the tense: \"She has finished her assignment.\"",
+        "questionText": "Identify the tense: \"She has finished her assignment.\"",
+        "options": [
+          "Simple past",
+          "Present perfect",
+          "Past continuous",
+          "Future perfect"
+        ],
+        "selected_option_index": 1,
+        "selectedOptionIndex": 1,
+        "correct_option_index": 1,
+        "correctOptionIndex": 1,
+        "is_correct": true,
+        "isCorrect": true,
+        "explanation": "\"Has finished\" uses has/have + past participle, the present perfect structure."
+      },
+      {
+        "id": "a355cbb5-2c3f-4d45-8c66-9648cfc2c87d",
+        "question_text": "Which word is a synonym of \"abundant\"?",
+        "questionText": "Which word is a synonym of \"abundant\"?",
+        "options": [
+          "Scarce",
+          "Plentiful",
+          "Meager",
+          "Rare"
+        ],
+        "selected_option_index": 1,
+        "selectedOptionIndex": 1,
+        "correct_option_index": 1,
+        "correctOptionIndex": 1,
+        "is_correct": true,
+        "isCorrect": true,
+        "explanation": "\"Plentiful\" means existing in large quantities, matching \"abundant\"."
+      },
+      {
+        "id": "9253063c-507c-4265-ac71-e6dbb3462a34",
+        "question_text": "Which word is an antonym of \"benevolent\"?",
+        "questionText": "Which word is an antonym of \"benevolent\"?",
+        "options": [
+          "Kind",
+          "Generous",
+          "Malevolent",
+          "Charitable"
+        ],
+        "selected_option_index": 2,
+        "selectedOptionIndex": 2,
+        "correct_option_index": 2,
+        "correctOptionIndex": 2,
+        "is_correct": true,
+        "isCorrect": true,
+        "explanation": "\"Malevolent\" means having ill will, the opposite of \"benevolent\" (kind-hearted)."
+      },
+      {
+        "id": "1d399b97-5957-44ec-b547-28182b12bf80",
+        "question_text": "Choose the correctly spelled word.",
+        "questionText": "Choose the correctly spelled word.",
+        "options": [
+          "Recieve",
+          "Receive",
+          "Receeve",
+          "Receve"
+        ],
+        "selected_option_index": 1,
+        "selectedOptionIndex": 1,
+        "correct_option_index": 1,
+        "correctOptionIndex": 1,
+        "is_correct": true,
+        "isCorrect": true,
+        "explanation": "The correct spelling follows \"i before e except after c\": Receive."
+      },
+      {
+        "id": "60545712-5102-4a8f-bb5b-fa5b93dcf029",
+        "question_text": "\"The team ___ playing well this season.\" Choose the correct verb.",
+        "questionText": "\"The team ___ playing well this season.\" Choose the correct verb.",
+        "options": [
+          "is",
+          "are",
+          "were",
+          "have"
+        ],
+        "selected_option_index": 0,
+        "selectedOptionIndex": 0,
+        "correct_option_index": 0,
+        "correctOptionIndex": 0,
+        "is_correct": true,
+        "isCorrect": true,
+        "explanation": "\"Team\" is a collective noun treated as a single unit here, taking the singular verb \"is\"."
+      },
+      {
+        "id": "a3197bd6-918d-45d9-804e-7a29a49971ea",
+        "question_text": "Which of these is a compound sentence?",
+        "questionText": "Which of these is a compound sentence?",
+        "options": [
+          "I went to the market.",
+          "Although it rained, we went out.",
+          "I went to the market, and I bought some fruits.",
+          "Going to the market."
+        ],
+        "selected_option_index": 2,
+        "selectedOptionIndex": 2,
+        "correct_option_index": 2,
+        "correctOptionIndex": 2,
+        "is_correct": true,
+        "isCorrect": true,
+        "explanation": "A compound sentence joins two independent clauses with a coordinating conjunction such as \"and\"."
+      },
+      {
+        "id": "0f18dc47-d46d-46ed-aeea-4b5312b744a5",
+        "question_text": "What figure of speech is used in \"The wind whispered through the trees\"?",
+        "questionText": "What figure of speech is used in \"The wind whispered through the trees\"?",
+        "options": [
+          "Simile",
+          "Metaphor",
+          "Personification",
+          "Hyperbole"
+        ],
+        "selected_option_index": null,
+        "selectedOptionIndex": null,
+        "correct_option_index": 2,
+        "correctOptionIndex": 2,
+        "is_correct": false,
+        "isCorrect": false,
+        "explanation": "Giving the wind the human ability to \"whisper\" is personification."
+      },
+      {
+        "id": "27704a77-88ab-4b07-ab48-0726c621fc3f",
+        "question_text": "What is the meaning of the idiom \"to break the ice\"?",
+        "questionText": "What is the meaning of the idiom \"to break the ice\"?",
+        "options": [
+          "To start a conversation in a social setting",
+          "To destroy something fragile",
+          "To end a relationship",
+          "To cause an argument"
+        ],
+        "selected_option_index": null,
+        "selectedOptionIndex": null,
+        "correct_option_index": 0,
+        "correctOptionIndex": 0,
+        "is_correct": false,
+        "isCorrect": false,
+        "explanation": "\"Break the ice\" means to ease tension and start conversation, especially with strangers."
+      },
+      {
+        "id": "2c6c60df-0dec-491b-9140-06bf99b9104c",
+        "question_text": "Which punctuation mark is used to indicate direct speech?",
+        "questionText": "Which punctuation mark is used to indicate direct speech?",
+        "options": [
+          "Comma",
+          "Quotation marks",
+          "Semicolon",
+          "Colon"
+        ],
+        "selected_option_index": null,
+        "selectedOptionIndex": null,
+        "correct_option_index": 1,
+        "correctOptionIndex": 1,
+        "is_correct": false,
+        "isCorrect": false,
+        "explanation": "Quotation marks enclose a speaker's exact words."
+      },
+      {
+        "id": "dd2e4cea-2ec9-4fb4-a546-761b56228807",
+        "question_text": "Identify the subject in the sentence: \"The tall man in the blue shirt smiled.\"",
+        "questionText": "Identify the subject in the sentence: \"The tall man in the blue shirt smiled.\"",
+        "options": [
+          "tall man",
+          "The tall man in the blue shirt",
+          "blue shirt",
+          "smiled"
+        ],
+        "selected_option_index": null,
+        "selectedOptionIndex": null,
+        "correct_option_index": 1,
+        "correctOptionIndex": 1,
+        "is_correct": false,
+        "isCorrect": false,
+        "explanation": "The complete subject is the full noun phrase performing the action: \"The tall man in the blue shirt\"."
+      },
+      {
+        "id": "c9949f9e-f437-4293-926c-d633009c2149",
+        "question_text": "Which sentence is grammatically correct?",
+        "questionText": "Which sentence is grammatically correct?",
+        "options": [
+          "Neither of the boys were present.",
+          "Neither of the boys was present.",
+          "Neither of the boys is were present.",
+          "Neither of the boys being present."
+        ],
+        "selected_option_index": null,
+        "selectedOptionIndex": null,
+        "correct_option_index": 1,
+        "correctOptionIndex": 1,
+        "is_correct": false,
+        "isCorrect": false,
+        "explanation": "\"Neither\" is singular and takes a singular verb: \"was\"."
+      },
+      {
+        "id": "20eaaa3d-c4ea-4a88-85cc-629e5e7964f7",
+        "question_text": "Which type of communication involves gestures, facial expressions, and body posture?",
+        "questionText": "Which type of communication involves gestures, facial expressions, and body posture?",
+        "options": [
+          "Verbal communication",
+          "Written communication",
+          "Non-verbal communication",
+          "Formal communication"
+        ],
+        "selected_option_index": null,
+        "selectedOptionIndex": null,
+        "correct_option_index": 2,
+        "correctOptionIndex": 2,
+        "is_correct": false,
+        "isCorrect": false,
+        "explanation": "Non-verbal communication conveys meaning without spoken or written words."
+      },
+      {
+        "id": "e9de761a-2881-4b87-af8a-2112c2c58e11",
+        "question_text": "Which of the following is a proper noun?",
+        "questionText": "Which of the following is a proper noun?",
+        "options": [
+          "city",
+          "river",
+          "Lagos",
+          "teacher"
+        ],
+        "selected_option_index": null,
+        "selectedOptionIndex": null,
+        "correct_option_index": 2,
+        "correctOptionIndex": 2,
+        "is_correct": false,
+        "isCorrect": false,
+        "explanation": "\"Lagos\" names a specific place, making it a proper noun (capitalized)."
+      },
+      {
+        "id": "63cb6fe1-70d2-45f5-b62a-ff74ce7ccfd3",
+        "question_text": "Choose the correct comparative form: \"This book is ___ than that one.\"",
+        "questionText": "Choose the correct comparative form: \"This book is ___ than that one.\"",
+        "options": [
+          "interesting",
+          "more interesting",
+          "most interesting",
+          "interestinger"
+        ],
+        "selected_option_index": null,
+        "selectedOptionIndex": null,
+        "correct_option_index": 1,
+        "correctOptionIndex": 1,
+        "is_correct": false,
+        "isCorrect": false,
+        "explanation": "Multi-syllable adjectives form comparatives with \"more\", not a suffix."
+      },
+      {
+        "id": "76d79703-9823-48f6-b3a3-963fde3049ba",
+        "question_text": "What is the main purpose of a topic sentence in a paragraph?",
+        "questionText": "What is the main purpose of a topic sentence in a paragraph?",
+        "options": [
+          "To conclude the paragraph",
+          "To state the main idea of the paragraph",
+          "To provide examples",
+          "To list references"
+        ],
+        "selected_option_index": null,
+        "selectedOptionIndex": null,
+        "correct_option_index": 1,
+        "correctOptionIndex": 1,
+        "is_correct": false,
+        "isCorrect": false,
+        "explanation": "A topic sentence introduces and summarizes the paragraph's central idea."
+      },
+      {
+        "id": "0d2b60e9-cc47-43a8-98bc-f6b928db6fad",
+        "question_text": "Which of the following is an example of a homophone pair?",
+        "questionText": "Which of the following is an example of a homophone pair?",
+        "options": [
+          "big/large",
+          "their/there",
+          "happy/sad",
+          "run/ran"
+        ],
+        "selected_option_index": null,
+        "selectedOptionIndex": null,
+        "correct_option_index": 1,
+        "correctOptionIndex": 1,
+        "is_correct": false,
+        "isCorrect": false,
+        "explanation": "\"Their\" and \"there\" sound alike but differ in spelling and meaning, making them homophones."
+      },
+      {
+        "id": "84d48c24-6961-4df9-8bf0-8c9c00856958",
+        "question_text": "In formal letter writing, what is the correct way to close a letter that begins with \"Dear Sir/Madam\"?",
+        "questionText": "In formal letter writing, what is the correct way to close a letter that begins with \"Dear Sir/Madam\"?",
+        "options": [
+          "Best wishes",
+          "Yours sincerely",
+          "Yours faithfully",
+          "Cheers"
+        ],
+        "selected_option_index": null,
+        "selectedOptionIndex": null,
+        "correct_option_index": 2,
+        "correctOptionIndex": 2,
+        "is_correct": false,
+        "isCorrect": false,
+        "explanation": "\"Yours faithfully\" is used when the recipient's name is unknown, as with \"Dear Sir/Madam\"."
+      },
+      {
+        "id": "a6ea685a-6ede-46fa-acb0-b122db1d54cc",
+        "question_text": "Which word correctly completes the sentence: \"Each of the students ___ given a textbook.\"?",
+        "questionText": "Which word correctly completes the sentence: \"Each of the students ___ given a textbook.\"?",
+        "options": [
+          "were",
+          "was",
+          "have been",
+          "are"
+        ],
+        "selected_option_index": null,
+        "selectedOptionIndex": null,
+        "correct_option_index": 1,
+        "correctOptionIndex": 1,
+        "is_correct": false,
+        "isCorrect": false,
+        "explanation": "\"Each\" is singular and takes a singular verb: \"was\"."
+      },
+      {
+        "id": "b880335b-33f5-4303-9311-b3d41e0b5955",
+        "question_text": "What is the term for words that sound the same but have different meanings and spellings?",
+        "questionText": "What is the term for words that sound the same but have different meanings and spellings?",
+        "options": [
+          "Synonyms",
+          "Antonyms",
+          "Homophones",
+          "Homonyms"
+        ],
+        "selected_option_index": null,
+        "selectedOptionIndex": null,
+        "correct_option_index": 2,
+        "correctOptionIndex": 2,
+        "is_correct": false,
+        "isCorrect": false,
+        "explanation": "Homophones sound alike but are spelled differently and mean different things."
+      },
+      {
+        "id": "adce3f35-ace2-4477-80a8-f65d0d35771e",
+        "question_text": "Which of these is an example of alliteration?",
+        "questionText": "Which of these is an example of alliteration?",
+        "options": [
+          "She sells seashells by the seashore",
+          "Time is money",
+          "The classroom was a zoo",
+          "It's raining cats and dogs"
+        ],
+        "selected_option_index": null,
+        "selectedOptionIndex": null,
+        "correct_option_index": 0,
+        "correctOptionIndex": 0,
+        "is_correct": false,
+        "isCorrect": false,
+        "explanation": "Alliteration is the repetition of initial consonant sounds, as in the repeated \"s\" sound."
+      },
+      {
+        "id": "7a57b283-4928-4c61-951f-e20d7ab7cacb",
+        "question_text": "Choose the sentence with correct subject-verb agreement.",
+        "questionText": "Choose the sentence with correct subject-verb agreement.",
+        "options": [
+          "The list of items are on the table.",
+          "The list of items is on the table.",
+          "The list of items were on the table.",
+          "The list of items being on the table."
+        ],
+        "selected_option_index": null,
+        "selectedOptionIndex": null,
+        "correct_option_index": 1,
+        "correctOptionIndex": 1,
+        "is_correct": false,
+        "isCorrect": false,
+        "explanation": "The subject is \"list\" (singular), not \"items\", so the verb must be \"is\"."
+      },
+      {
+        "id": "5c86e133-41d5-4fbb-8847-953c2a6e0385",
+        "question_text": "What is the function of an adverb in a sentence?",
+        "questionText": "What is the function of an adverb in a sentence?",
+        "options": [
+          "To name a person, place or thing",
+          "To modify a verb, adjective or another adverb",
+          "To connect clauses",
+          "To show possession"
+        ],
+        "selected_option_index": null,
+        "selectedOptionIndex": null,
+        "correct_option_index": 1,
+        "correctOptionIndex": 1,
+        "is_correct": false,
+        "isCorrect": false,
+        "explanation": "Adverbs describe or modify verbs, adjectives, or other adverbs."
+      },
+      {
+        "id": "753b7f1a-559d-4996-8c53-859e30166c5f",
+        "question_text": "Which of the following best describes \"skimming\" as a reading skill?",
+        "questionText": "Which of the following best describes \"skimming\" as a reading skill?",
+        "options": [
+          "Reading every word carefully",
+          "Reading quickly to get the general idea",
+          "Reading aloud",
+          "Reading to memorize"
+        ],
+        "selected_option_index": null,
+        "selectedOptionIndex": null,
+        "correct_option_index": 1,
+        "correctOptionIndex": 1,
+        "is_correct": false,
+        "isCorrect": false,
+        "explanation": "Skimming means reading rapidly to grasp the overall gist of a text."
+      }
+    ],
+    "answers": {
+      "0": 2,
+      "1": 2,
+      "2": 1,
+      "3": 1,
+      "4": 2,
+      "5": 1,
+      "6": 0,
+      "7": 2,
+      "8": null,
+      "9": null,
+      "10": null,
+      "11": null,
+      "12": null,
+      "13": null,
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": null,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": null,
+      "24": null,
+      "25": null,
+      "26": null,
+      "27": null,
+      "28": null,
+      "29": null,
+      "30": null,
+      "31": null,
+      "32": null,
+      "1ab637de-bfe6-42ea-a1dd-09e24f5445b8": 2,
+      "03be1ab1-7bac-4063-ad14-a2755071cc45": 2,
+      "a8afd62c-0312-49f8-ba81-9dbbde35e0ba": 1,
+      "a355cbb5-2c3f-4d45-8c66-9648cfc2c87d": 1,
+      "9253063c-507c-4265-ac71-e6dbb3462a34": 2,
+      "1d399b97-5957-44ec-b547-28182b12bf80": 1,
+      "a3197bd6-918d-45d9-804e-7a29a49971ea": 2,
+      "60545712-5102-4a8f-bb5b-fa5b93dcf029": 0
+    },
+    "status": "GRADED",
+    "startedAt": "2026-08-31T04:22:40.423Z",
+    "expiresAt": "2026-08-31T04:52:40.423Z",
+    "remainingSeconds": 1778,
+    "currentIndex": 7,
+    "score": 8,
+    "correctAnswers": 8,
+    "incorrectAnswers": 0,
+    "unanswered": 17,
+    "totalQuestions": 25,
+    "scorePercent": 32,
+    "passed": false,
+    "timeTakenSeconds": 22,
+    "submittedAt": "2026-08-31T04:23:09.085Z"
+  },
+  {
+    "id": "e68870b7-a79f-4a50-a71c-8fc931fbffac",
+    "userId": "6017f36c-01dc-4395-9124-a4e78c521f3d",
+    "courseId": "c1bbd895-5c10-4786-9e86-e794bbabc339",
+    "courseCode": "GST104",
+    "courseTitle": "Use of Library, Study Skills & ICT",
+    "questions": [
+      {
+        "id": "f055e65c-1738-4896-b542-d223d930a73d",
+        "question_text": "The acronym CPU stands for:",
+        "questionText": "The acronym CPU stands for:",
+        "options": [
+          "Central Processing Unit",
+          "Computer Personal Unit",
+          "Central Program Unit",
+          "Central Processor Unity"
+        ],
+        "selected_option_index": 0,
+        "selectedOptionIndex": 0,
+        "correct_option_index": 0,
+        "correctOptionIndex": 0,
+        "is_correct": true,
+        "isCorrect": true,
+        "explanation": "CPU stands for Central Processing Unit, the computer's main processing component."
+      },
+      {
+        "id": "245f7a53-1c44-49e0-b326-a1b774ddf291",
+        "question_text": "Which of the following is an input device?",
+        "questionText": "Which of the following is an input device?",
+        "options": [
+          "Monitor",
+          "Printer",
+          "Keyboard",
+          "Speaker"
+        ],
+        "selected_option_index": 2,
+        "selectedOptionIndex": 2,
+        "correct_option_index": 2,
+        "correctOptionIndex": 2,
+        "is_correct": true,
+        "isCorrect": true,
+        "explanation": "A keyboard sends data/commands into the computer, making it an input device."
+      },
+      {
+        "id": "e8f2fd6a-3d18-410c-a401-b4092d067058",
+        "question_text": "Which of the following is an output device?",
+        "questionText": "Which of the following is an output device?",
+        "options": [
+          "Mouse",
+          "Scanner",
+          "Monitor",
+          "Keyboard"
+        ],
+        "selected_option_index": 2,
+        "selectedOptionIndex": 2,
+        "correct_option_index": 2,
+        "correctOptionIndex": 2,
+        "is_correct": true,
+        "isCorrect": true,
+        "explanation": "A monitor displays information from the computer, making it an output device."
+      },
+      {
+        "id": "f19e0960-42f2-4080-850e-59135b3ca954",
+        "question_text": "RAM stands for:",
+        "questionText": "RAM stands for:",
+        "options": [
+          "Random Access Memory",
+          "Read Access Memory",
+          "Rapid Access Memory",
+          "Read and Modify memory"
+        ],
+        "selected_option_index": 0,
+        "selectedOptionIndex": 0,
+        "correct_option_index": 0,
+        "correctOptionIndex": 0,
+        "is_correct": true,
+        "isCorrect": true,
+        "explanation": "RAM stands for Random Access Memory, used for temporary data storage while a computer runs."
+      },
+      {
+        "id": "fab16d3a-a6c0-4113-95d2-6be8853021ef",
+        "question_text": "Which type of computer memory is volatile (loses data when power is off)?",
+        "questionText": "Which type of computer memory is volatile (loses data when power is off)?",
+        "options": [
+          "ROM",
+          "RAM",
+          "Hard disk",
+          "Flash drive"
+        ],
+        "selected_option_index": 0,
+        "selectedOptionIndex": 0,
+        "correct_option_index": 1,
+        "correctOptionIndex": 1,
+        "is_correct": false,
+        "isCorrect": false,
+        "explanation": "RAM is volatile memory, meaning its contents are lost when power is removed."
+      },
+      {
+        "id": "43c05d99-de40-4d22-8a68-9ef907348d9a",
+        "question_text": "ROM stands for:",
+        "questionText": "ROM stands for:",
+        "options": [
+          "Read Only Memory",
+          "Random Only Memory",
+          "Read Operational Memory",
+          "Rapid Output Memory"
+        ],
+        "selected_option_index": 0,
+        "selectedOptionIndex": 0,
+        "correct_option_index": 0,
+        "correctOptionIndex": 0,
+        "is_correct": true,
+        "isCorrect": true,
+        "explanation": "ROM stands for Read Only Memory, which retains data even without power."
+      },
+      {
+        "id": "f3bf7e15-53b2-419a-be20-41c4bc67fdbf",
+        "question_text": "Which generation of computers introduced the use of microprocessors?",
+        "questionText": "Which generation of computers introduced the use of microprocessors?",
+        "options": [
+          "First generation",
+          "Second generation",
+          "Third generation",
+          "Fourth generation"
+        ],
+        "selected_option_index": 0,
+        "selectedOptionIndex": 0,
+        "correct_option_index": 3,
+        "correctOptionIndex": 3,
+        "is_correct": false,
+        "isCorrect": false,
+        "explanation": "Fourth-generation computers (from the 1970s) introduced microprocessors."
+      },
+      {
+        "id": "4afb0947-5b4d-4528-bec2-eaae4a91a817",
+        "question_text": "The first generation of computers primarily used which technology?",
+        "questionText": "The first generation of computers primarily used which technology?",
+        "options": [
+          "Transistors",
+          "Vacuum tubes",
+          "Integrated circuits",
+          "Microprocessors"
+        ],
+        "selected_option_index": 2,
+        "selectedOptionIndex": 2,
+        "correct_option_index": 1,
+        "correctOptionIndex": 1,
+        "is_correct": false,
+        "isCorrect": false,
+        "explanation": "First-generation computers (1940s-1950s) relied on vacuum tube technology."
+      },
+      {
+        "id": "803186c2-8f5e-4cc7-9f14-4931eb2d956b",
+        "question_text": "Which of the following is a secondary storage device?",
+        "questionText": "Which of the following is a secondary storage device?",
+        "options": [
+          "RAM",
+          "Cache memory",
+          "Hard disk drive",
+          "Register"
+        ],
+        "selected_option_index": null,
+        "selectedOptionIndex": null,
+        "correct_option_index": 2,
+        "correctOptionIndex": 2,
+        "is_correct": false,
+        "isCorrect": false,
+        "explanation": "A hard disk drive provides persistent secondary storage, unlike RAM or cache."
+      },
+      {
+        "id": "56d82fc1-352d-4b42-906c-d192f6dbc1cb",
+        "question_text": "The term \"software\" refers to:",
+        "questionText": "The term \"software\" refers to:",
+        "options": [
+          "Physical components of a computer",
+          "Programs and instructions that run on a computer",
+          "Only the operating system",
+          "Only the internet browser"
+        ],
+        "selected_option_index": null,
+        "selectedOptionIndex": null,
+        "correct_option_index": 1,
+        "correctOptionIndex": 1,
+        "is_correct": false,
+        "isCorrect": false,
+        "explanation": "Software broadly means any set of programs and instructions that run on hardware."
+      },
+      {
+        "id": "c5d79986-a567-4178-950e-c0d85737926d",
+        "question_text": "Which of these is an example of system software?",
+        "questionText": "Which of these is an example of system software?",
+        "options": [
+          "Microsoft Word",
+          "Operating System",
+          "Adobe Photoshop",
+          "Google Chrome"
+        ],
+        "selected_option_index": null,
+        "selectedOptionIndex": null,
+        "correct_option_index": 1,
+        "correctOptionIndex": 1,
+        "is_correct": false,
+        "isCorrect": false,
+        "explanation": "An Operating System manages hardware and software resources, making it system software."
+      },
+      {
+        "id": "f8a6ac24-a49c-4f7c-9925-f49bd93910e2",
+        "question_text": "Which of these is an example of application software?",
+        "questionText": "Which of these is an example of application software?",
+        "options": [
+          "Windows OS",
+          "Linux",
+          "Microsoft Excel",
+          "BIOS"
+        ],
+        "selected_option_index": null,
+        "selectedOptionIndex": null,
+        "correct_option_index": 2,
+        "correctOptionIndex": 2,
+        "is_correct": false,
+        "isCorrect": false,
+        "explanation": "Microsoft Excel is application software designed for a specific user task."
+      },
+      {
+        "id": "df7d75a1-6df4-4b11-aede-b59c8b18db94",
+        "question_text": "WWW stands for:",
+        "questionText": "WWW stands for:",
+        "options": [
+          "World Wide Web",
+          "World Wide Wire",
+          "Web Wide World",
+          "World Web Wire"
+        ],
+        "selected_option_index": null,
+        "selectedOptionIndex": null,
+        "correct_option_index": 0,
+        "correctOptionIndex": 0,
+        "is_correct": false,
+        "isCorrect": false,
+        "explanation": "WWW stands for World Wide Web, the system of interlinked web pages."
+      },
+      {
+        "id": "b1e7f379-97f7-4c82-8a27-0d42ea43215a",
+        "question_text": "Which protocol is primarily used for browsing websites?",
+        "questionText": "Which protocol is primarily used for browsing websites?",
+        "options": [
+          "FTP",
+          "HTTP/HTTPS",
+          "SMTP",
+          "TCP only"
+        ],
+        "selected_option_index": null,
+        "selectedOptionIndex": null,
+        "correct_option_index": 1,
+        "correctOptionIndex": 1,
+        "is_correct": false,
+        "isCorrect": false,
+        "explanation": "HTTP/HTTPS is the protocol used to transfer web pages between servers and browsers."
+      },
+      {
+        "id": "3801cdbc-ae6b-4adb-ba06-b08be462ad6a",
+        "question_text": "What does \"URL\" stand for?",
+        "questionText": "What does \"URL\" stand for?",
+        "options": [
+          "Uniform Resource Locator",
+          "Universal Reference Link",
+          "Unified Resource List",
+          "Uniform Reference Locator"
+        ],
+        "selected_option_index": null,
+        "selectedOptionIndex": null,
+        "correct_option_index": 0,
+        "correctOptionIndex": 0,
+        "is_correct": false,
+        "isCorrect": false,
+        "explanation": "URL stands for Uniform Resource Locator, the address used to access web resources."
+      },
+      {
+        "id": "f289fc3a-62d3-463e-975f-66d5d390fbad",
+        "question_text": "Which of the following best describes a computer virus?",
+        "questionText": "Which of the following best describes a computer virus?",
+        "options": [
+          "A beneficial software update",
+          "A malicious program designed to disrupt or damage a system",
+          "A type of hardware",
+          "A network protocol"
+        ],
+        "selected_option_index": null,
+        "selectedOptionIndex": null,
+        "correct_option_index": 1,
+        "correctOptionIndex": 1,
+        "is_correct": false,
+        "isCorrect": false,
+        "explanation": "A computer virus is malicious software that can damage or disrupt systems and spread between them."
+      },
+      {
+        "id": "8b8a8884-1071-43a4-b896-a2f3054a7af3",
+        "question_text": "What is the primary purpose of an antivirus program?",
+        "questionText": "What is the primary purpose of an antivirus program?",
+        "options": [
+          "To speed up the internet",
+          "To detect and remove malicious software",
+          "To create documents",
+          "To manage files only"
+        ],
+        "selected_option_index": null,
+        "selectedOptionIndex": null,
+        "correct_option_index": 1,
+        "correctOptionIndex": 1,
+        "is_correct": false,
+        "isCorrect": false,
+        "explanation": "Antivirus software is designed to detect, block, and remove malware."
+      },
+      {
+        "id": "eb42c258-6a06-44f1-a927-05fdc750fdc3",
+        "question_text": "A network that connects computers within a small geographic area, such as an office, is called:",
+        "questionText": "A network that connects computers within a small geographic area, such as an office, is called:",
+        "options": [
+          "WAN",
+          "LAN",
+          "MAN",
+          "VPN"
+        ],
+        "selected_option_index": null,
+        "selectedOptionIndex": null,
+        "correct_option_index": 1,
+        "correctOptionIndex": 1,
+        "is_correct": false,
+        "isCorrect": false,
+        "explanation": "A Local Area Network (LAN) covers a small area like a single building or office."
+      },
+      {
+        "id": "e6801866-c223-425d-9060-e9e928ab3245",
+        "question_text": "WAN stands for:",
+        "questionText": "WAN stands for:",
+        "options": [
+          "Wide Area Network",
+          "Wireless Area Network",
+          "Web Access Network",
+          "Wide Access Node"
+        ],
+        "selected_option_index": null,
+        "selectedOptionIndex": null,
+        "correct_option_index": 0,
+        "correctOptionIndex": 0,
+        "is_correct": false,
+        "isCorrect": false,
+        "explanation": "WAN stands for Wide Area Network, spanning large geographic distances."
+      },
+      {
+        "id": "f4399b06-0419-4cf6-8538-1e2432a08488",
+        "question_text": "Which of the following is a common cloud storage service?",
+        "questionText": "Which of the following is a common cloud storage service?",
+        "options": [
+          "Google Drive",
+          "Microsoft Word",
+          "Adobe Reader",
+          "VLC Media Player"
+        ],
+        "selected_option_index": null,
+        "selectedOptionIndex": null,
+        "correct_option_index": 0,
+        "correctOptionIndex": 0,
+        "is_correct": false,
+        "isCorrect": false,
+        "explanation": "Google Drive is a cloud-based storage service for saving and sharing files online."
+      },
+      {
+        "id": "a2456e87-c869-4ed0-8d2e-24fd64d255b2",
+        "question_text": "The smallest unit of data in a computer is called a:",
+        "questionText": "The smallest unit of data in a computer is called a:",
+        "options": [
+          "Byte",
+          "Bit",
+          "Nibble",
+          "Kilobyte"
+        ],
+        "selected_option_index": null,
+        "selectedOptionIndex": null,
+        "correct_option_index": 1,
+        "correctOptionIndex": 1,
+        "is_correct": false,
+        "isCorrect": false,
+        "explanation": "A bit (binary digit) is the smallest unit of data, representing a 0 or 1."
+      },
+      {
+        "id": "75861fb8-0f7e-42be-b0a3-4c47f4e04121",
+        "question_text": "How many bits make up one byte?",
+        "questionText": "How many bits make up one byte?",
+        "options": [
+          "4",
+          "8",
+          "16",
+          "32"
+        ],
+        "selected_option_index": null,
+        "selectedOptionIndex": null,
+        "correct_option_index": 1,
+        "correctOptionIndex": 1,
+        "is_correct": false,
+        "isCorrect": false,
+        "explanation": "One byte is made up of 8 bits."
+      },
+      {
+        "id": "50eaca5e-3c83-476b-8d58-b54b368a3c29",
+        "question_text": "Which of the following best defines \"cybersecurity\"?",
+        "questionText": "Which of the following best defines \"cybersecurity\"?",
+        "options": [
+          "The study of computer hardware only",
+          "Practices and measures to protect systems, networks, and data from digital attacks",
+          "The design of computer software",
+          "The process of typing faster"
+        ],
+        "selected_option_index": null,
+        "selectedOptionIndex": null,
+        "correct_option_index": 1,
+        "correctOptionIndex": 1,
+        "is_correct": false,
+        "isCorrect": false,
+        "explanation": "Cybersecurity involves protecting systems, networks, and data from digital threats and attacks."
+      },
+      {
+        "id": "7dadd2e6-cec8-415e-ad36-866d7562ea17",
+        "question_text": "An email address typically contains which symbol to separate the username from the domain?",
+        "questionText": "An email address typically contains which symbol to separate the username from the domain?",
+        "options": [
+          "#",
+          "@",
+          "&",
+          "%"
+        ],
+        "selected_option_index": null,
+        "selectedOptionIndex": null,
+        "correct_option_index": 1,
+        "correctOptionIndex": 1,
+        "is_correct": false,
+        "isCorrect": false,
+        "explanation": "The \"@\" symbol separates the username from the domain name in an email address."
+      },
+      {
+        "id": "60f4c5d2-5c84-45c3-af80-c5f30a4b7f94",
+        "question_text": "Which of the following is considered good practice for password security?",
+        "questionText": "Which of the following is considered good practice for password security?",
+        "options": [
+          "Using the same simple password everywhere",
+          "Sharing your password with friends",
+          "Using a strong, unique password with a mix of characters",
+          "Writing your password on a sticky note on your monitor"
+        ],
+        "selected_option_index": null,
+        "selectedOptionIndex": null,
+        "correct_option_index": 2,
+        "correctOptionIndex": 2,
+        "is_correct": false,
+        "isCorrect": false,
+        "explanation": "Strong, unique passwords with mixed character types are harder for attackers to guess or crack."
+      }
+    ],
+    "answers": {
+      "0": 0,
+      "1": 2,
+      "2": 2,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 2,
+      "8": null,
+      "9": null,
+      "10": null,
+      "11": null,
+      "12": null,
+      "13": null,
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": null,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": null,
+      "24": null,
+      "f055e65c-1738-4896-b542-d223d930a73d": 0,
+      "245f7a53-1c44-49e0-b326-a1b774ddf291": 2,
+      "e8f2fd6a-3d18-410c-a401-b4092d067058": 2,
+      "f19e0960-42f2-4080-850e-59135b3ca954": 0,
+      "fab16d3a-a6c0-4113-95d2-6be8853021ef": 0,
+      "43c05d99-de40-4d22-8a68-9ef907348d9a": 0,
+      "f3bf7e15-53b2-419a-be20-41c4bc67fdbf": 0,
+      "4afb0947-5b4d-4528-bec2-eaae4a91a817": 2,
+      "803186c2-8f5e-4cc7-9f14-4931eb2d956b": null,
+      "56d82fc1-352d-4b42-906c-d192f6dbc1cb": null,
+      "c5d79986-a567-4178-950e-c0d85737926d": null,
+      "f8a6ac24-a49c-4f7c-9925-f49bd93910e2": null,
+      "df7d75a1-6df4-4b11-aede-b59c8b18db94": null,
+      "b1e7f379-97f7-4c82-8a27-0d42ea43215a": null,
+      "3801cdbc-ae6b-4adb-ba06-b08be462ad6a": null,
+      "f289fc3a-62d3-463e-975f-66d5d390fbad": null,
+      "8b8a8884-1071-43a4-b896-a2f3054a7af3": null,
+      "eb42c258-6a06-44f1-a927-05fdc750fdc3": null,
+      "e6801866-c223-425d-9060-e9e928ab3245": null,
+      "f4399b06-0419-4cf6-8538-1e2432a08488": null,
+      "a2456e87-c869-4ed0-8d2e-24fd64d255b2": null,
+      "75861fb8-0f7e-42be-b0a3-4c47f4e04121": null,
+      "50eaca5e-3c83-476b-8d58-b54b368a3c29": null,
+      "7dadd2e6-cec8-415e-ad36-866d7562ea17": null,
+      "60f4c5d2-5c84-45c3-af80-c5f30a4b7f94": null
+    },
+    "status": "GRADED",
+    "startedAt": "2026-08-31T04:25:27.928Z",
+    "expiresAt": "2026-08-31T04:55:27.928Z",
+    "remainingSeconds": 1758,
+    "currentIndex": 8,
+    "score": 5,
+    "correctAnswers": 5,
+    "incorrectAnswers": 3,
+    "unanswered": 17,
+    "totalQuestions": 25,
+    "scorePercent": 20,
+    "passed": false,
+    "timeTakenSeconds": 47,
+    "submittedAt": "2026-08-31T04:26:25.430Z"
+  },
+  {
+    "id": "44c66295-d06e-4ec8-bb58-ac2a4df93d5e",
+    "userId": "6017f36c-01dc-4395-9124-a4e78c521f3d",
+    "courseId": "775f378b-53be-464f-a926-a6332e1f6684",
+    "courseCode": "GST102",
+    "courseTitle": "Nigerian Peoples & Culture",
+    "questions": [
+      {
+        "id": "63a3b3e0-55c5-490a-8a35-cae04e938153",
+        "question_text": "In what year did Nigeria gain independence from British colonial rule?",
+        "questionText": "In what year did Nigeria gain independence from British colonial rule?",
+        "options": [
+          "1957",
+          "1960",
+          "1963",
+          "1966"
+        ],
+        "correct_option_index": 1,
+        "correctOptionIndex": 1,
+        "explanation": "Nigeria became independent on 1 October 1960."
+      },
+      {
+        "id": "62577189-3a5a-4d72-ab48-86a2dbc2c7db",
+        "question_text": "Nigeria became a republic in which year?",
+        "questionText": "Nigeria became a republic in which year?",
+        "options": [
+          "1960",
+          "1963",
+          "1966",
+          "1970"
+        ],
+        "correct_option_index": 1,
+        "correctOptionIndex": 1,
+        "explanation": "Nigeria became a republic in 1963, with Nnamdi Azikiwe as the first President."
+      },
+      {
+        "id": "8f6e8992-0e0f-4eb9-8c40-9b27ebc7f3e5",
+        "question_text": "Who was Nigeria's first President?",
+        "questionText": "Who was Nigeria's first President?",
+        "options": [
+          "Tafawa Balewa",
+          "Nnamdi Azikiwe",
+          "Yakubu Gowon",
+          "Olusegun Obasanjo"
+        ],
+        "correct_option_index": 1,
+        "correctOptionIndex": 1,
+        "explanation": "Nnamdi Azikiwe became Nigeria's first President when it became a republic in 1963; Balewa was Prime Minister."
+      },
+      {
+        "id": "36e67515-8e7c-4996-82d0-fef6f730b6b5",
+        "question_text": "The amalgamation of the Northern and Southern Protectorates of Nigeria took place in which year?",
+        "questionText": "The amalgamation of the Northern and Southern Protectorates of Nigeria took place in which year?",
+        "options": [
+          "1900",
+          "1914",
+          "1922",
+          "1954"
+        ],
+        "correct_option_index": 1,
+        "correctOptionIndex": 1,
+        "explanation": "Lord Lugard amalgamated the Northern and Southern Protectorates into one entity in 1914."
+      },
+      {
+        "id": "f5cdc560-f1b7-4f1a-9ec6-d7830bcc5c19",
+        "question_text": "Which British colonial administrator is credited with the amalgamation of Nigeria in 1914?",
+        "questionText": "Which British colonial administrator is credited with the amalgamation of Nigeria in 1914?",
+        "options": [
+          "Lord Lugard",
+          "Lord Harcourt",
+          "Sir Hugh Clifford",
+          "Sir Bernard Bourdillon"
+        ],
+        "correct_option_index": 0,
+        "correctOptionIndex": 0,
+        "explanation": "Lord Frederick Lugard oversaw the 1914 amalgamation as Governor-General."
+      },
+      {
+        "id": "a2732f10-eaf5-4cdb-86b9-82528b6bb7cd",
+        "question_text": "How many states currently make up the Federal Republic of Nigeria (excluding the FCT)?",
+        "questionText": "How many states currently make up the Federal Republic of Nigeria (excluding the FCT)?",
+        "options": [
+          "30",
+          "33",
+          "36",
+          "37"
+        ],
+        "correct_option_index": 2,
+        "correctOptionIndex": 2,
+        "explanation": "Nigeria has 36 states plus the Federal Capital Territory."
+      },
+      {
+        "id": "42cb4376-e5c4-4c08-9d66-cd30f0d2823b",
+        "question_text": "Which city serves as the Federal Capital Territory of Nigeria?",
+        "questionText": "Which city serves as the Federal Capital Territory of Nigeria?",
+        "options": [
+          "Lagos",
+          "Kaduna",
+          "Abuja",
+          "Enugu"
+        ],
+        "correct_option_index": 2,
+        "correctOptionIndex": 2,
+        "explanation": "Abuja became Nigeria's federal capital in 1991, replacing Lagos."
+      },
+      {
+        "id": "3c7ba139-0635-424c-a565-a67f6f689353",
+        "question_text": "Which of these is one of Nigeria's three major ethnic groups?",
+        "questionText": "Which of these is one of Nigeria's three major ethnic groups?",
+        "options": [
+          "Tiv",
+          "Yoruba",
+          "Ijaw",
+          "Efik"
+        ],
+        "correct_option_index": 1,
+        "correctOptionIndex": 1,
+        "explanation": "Hausa-Fulani, Yoruba, and Igbo are widely regarded as Nigeria's three largest ethnic groups."
+      },
+      {
+        "id": "f2ca2f6f-40cc-4e6e-be7d-a057e2a73bc7",
+        "question_text": "The Sokoto Caliphate was founded following the jihad led by which leader?",
+        "questionText": "The Sokoto Caliphate was founded following the jihad led by which leader?",
+        "options": [
+          "Usman dan Fodio",
+          "Muhammadu Bello",
+          "Shehu Ahmadu",
+          "Al-Kanemi"
+        ],
+        "correct_option_index": 0,
+        "correctOptionIndex": 0,
+        "explanation": "Usman dan Fodio led the early 19th-century jihad that established the Sokoto Caliphate."
+      },
+      {
+        "id": "f1f5ddef-bc53-42da-b21a-0bcc8966b0c6",
+        "question_text": "The ancient Benin Kingdom was renowned for its skill in which craft?",
+        "questionText": "The ancient Benin Kingdom was renowned for its skill in which craft?",
+        "options": [
+          "Pottery",
+          "Bronze casting",
+          "Weaving",
+          "Leatherworking"
+        ],
+        "correct_option_index": 1,
+        "correctOptionIndex": 1,
+        "explanation": "The Benin Kingdom is famed worldwide for its intricate bronze and brass castings."
+      },
+      {
+        "id": "e066c9be-b779-4a81-8c39-d93d0bef9cc2",
+        "question_text": "Which pre-colonial Nigerian empire was centered around Lake Chad?",
+        "questionText": "Which pre-colonial Nigerian empire was centered around Lake Chad?",
+        "options": [
+          "Oyo Empire",
+          "Benin Empire",
+          "Kanem-Bornu Empire",
+          "Nupe Kingdom"
+        ],
+        "correct_option_index": 2,
+        "correctOptionIndex": 2,
+        "explanation": "The Kanem-Bornu Empire was located in the Lake Chad basin region."
+      },
+      {
+        "id": "7724482d-53ca-4191-9b4d-35913e4e78c6",
+        "question_text": "Nigeria operates which type of government system?",
+        "questionText": "Nigeria operates which type of government system?",
+        "options": [
+          "Unitary",
+          "Federal",
+          "Confederal",
+          "Monarchy"
+        ],
+        "correct_option_index": 1,
+        "correctOptionIndex": 1,
+        "explanation": "Nigeria is a federation of states and a Federal Capital Territory under a federal system."
+      },
+      {
+        "id": "055e7170-d032-480e-891f-0bc413e94cc8",
+        "question_text": "How many geopolitical zones is Nigeria divided into?",
+        "questionText": "How many geopolitical zones is Nigeria divided into?",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
+        "correct_option_index": 2,
+        "correctOptionIndex": 2,
+        "explanation": "Nigeria is commonly divided into six geopolitical zones: North West, North East, North Central, South West, South East, and South South."
+      },
+      {
+        "id": "f3d0b718-f13b-4fcf-94c0-5c9879b76dca",
+        "question_text": "Which geopolitical zone is Lagos State located in?",
+        "questionText": "Which geopolitical zone is Lagos State located in?",
+        "options": [
+          "North Central",
+          "South West",
+          "South South",
+          "South East"
+        ],
+        "correct_option_index": 1,
+        "correctOptionIndex": 1,
+        "explanation": "Lagos State is part of the South West geopolitical zone."
+      },
+      {
+        "id": "0c9c002c-602a-4bbe-84b1-112ccd1f75da",
+        "question_text": "The traditional ruler of the Yoruba people of Oyo is known by which title?",
+        "questionText": "The traditional ruler of the Yoruba people of Oyo is known by which title?",
+        "options": [
+          "Emir",
+          "Obi",
+          "Alaafin",
+          "Oba of Benin"
+        ],
+        "correct_option_index": 2,
+        "correctOptionIndex": 2,
+        "explanation": "The Alaafin is the traditional title of the ruler of the Oyo Kingdom."
+      },
+      {
+        "id": "85c518a2-67ae-4ecc-ba2c-387c73c1075b",
+        "question_text": "What is the traditional title of the paramount ruler of the Hausa-Fulani emirates?",
+        "questionText": "What is the traditional title of the paramount ruler of the Hausa-Fulani emirates?",
+        "options": [
+          "Oba",
+          "Emir",
+          "Alaafin",
+          "Eze"
+        ],
+        "correct_option_index": 1,
+        "correctOptionIndex": 1,
+        "explanation": "\"Emir\" is the traditional title used across the Hausa-Fulani emirates of Northern Nigeria."
+      },
+      {
+        "id": "4302c5e4-62c1-4ade-9753-eb0f778ab87a",
+        "question_text": "What is the title of the traditional ruler among the Igbo people in many communities?",
+        "questionText": "What is the title of the traditional ruler among the Igbo people in many communities?",
+        "options": [
+          "Oba",
+          "Igwe/Eze",
+          "Emir",
+          "Attah"
+        ],
+        "correct_option_index": 1,
+        "correctOptionIndex": 1,
+        "explanation": "\"Igwe\" or \"Eze\" are common traditional titles used in many Igbo communities."
+      },
+      {
+        "id": "7624465b-cfc3-455b-8120-601fb9bfc291",
+        "question_text": "Which of the following is NOT one of Nigeria's major indigenous languages taught under the National Policy on Education?",
+        "questionText": "Which of the following is NOT one of Nigeria's major indigenous languages taught under the National Policy on Education?",
+        "options": [
+          "Hausa",
+          "Yoruba",
+          "Igbo",
+          "French"
+        ],
+        "correct_option_index": 3,
+        "correctOptionIndex": 3,
+        "explanation": "French is taught as a foreign language in Nigeria, not an indigenous Nigerian language."
+      },
+      {
+        "id": "c14589cb-68ec-435b-8f54-10702f5803f9",
+        "question_text": "The concept of \"unity in diversity\" in Nigerian culture refers to:",
+        "questionText": "The concept of \"unity in diversity\" in Nigerian culture refers to:",
+        "options": [
+          "The dominance of one culture over others",
+          "The peaceful coexistence and cooperation of Nigeria's diverse ethnic groups",
+          "The elimination of cultural differences",
+          "The isolation of ethnic groups from each other"
+        ],
+        "correct_option_index": 1,
+        "correctOptionIndex": 1,
+        "explanation": "\"Unity in diversity\" describes different groups living and working together despite their cultural differences."
+      },
+      {
+        "id": "8b5e44e7-1b9b-422b-bc95-a374a96aea5c",
+        "question_text": "Which of these Nigerian festivals is associated with the Igbo people?",
+        "questionText": "Which of these Nigerian festivals is associated with the Igbo people?",
+        "options": [
+          "Argungu Fishing Festival",
+          "New Yam Festival (Iri Ji)",
+          "Eyo Festival",
+          "Durbar Festival"
+        ],
+        "correct_option_index": 1,
+        "correctOptionIndex": 1,
+        "explanation": "The New Yam Festival (Iri Ji) is a major Igbo harvest celebration."
+      },
+      {
+        "id": "cdddc657-a9d0-491c-a886-d67cc9620f7f",
+        "question_text": "The Eyo festival is traditionally celebrated by which group?",
+        "questionText": "The Eyo festival is traditionally celebrated by which group?",
+        "options": [
+          "Hausa people of Kano",
+          "Lagos indigenes (Yoruba/Eko)",
+          "Igbo people of Enugu",
+          "Efik people of Calabar"
+        ],
+        "correct_option_index": 1,
+        "correctOptionIndex": 1,
+        "explanation": "The Eyo festival is a traditional masquerade festival of the Lagos (Eko) indigenes."
+      },
+      {
+        "id": "d603b855-e9af-41a2-8591-29385083bfed",
+        "question_text": "The Durbar festival, featuring horse parades, is most associated with which region?",
+        "questionText": "The Durbar festival, featuring horse parades, is most associated with which region?",
+        "options": [
+          "South West",
+          "South East",
+          "Northern Nigeria",
+          "South South"
+        ],
+        "correct_option_index": 2,
+        "correctOptionIndex": 2,
+        "explanation": "Durbar festivals, with elaborate horse displays, are a Northern Nigerian tradition tied to Sallah celebrations."
+      },
+      {
+        "id": "35155b74-f915-448e-8120-79b8b9365629",
+        "question_text": "What was the name of the civil war fought in Nigeria between 1967 and 1970?",
+        "questionText": "What was the name of the civil war fought in Nigeria between 1967 and 1970?",
+        "options": [
+          "The Biafran War",
+          "The Kano Riots",
+          "The Aba Women's Riot",
+          "The Niger Delta Conflict"
+        ],
+        "correct_option_index": 0,
+        "correctOptionIndex": 0,
+        "explanation": "The Nigerian Civil War (1967-1970) is also known as the Biafran War."
+      },
+      {
+        "id": "1f6e3c9e-75a0-4f7b-beeb-fce0a11d1c29",
+        "question_text": "The Aba Women's Riot of 1929 was primarily a protest against:",
+        "questionText": "The Aba Women's Riot of 1929 was primarily a protest against:",
+        "options": [
+          "Colonial taxation policies",
+          "Slave trade",
+          "Land ownership laws",
+          "Educational reforms"
+        ],
+        "correct_option_index": 0,
+        "correctOptionIndex": 0,
+        "explanation": "Igbo and Ibibio women protested against colonial taxation and the warrant chief system in 1929."
+      },
+      {
+        "id": "6a063ec2-4f57-427f-828f-aec9dca0fd08",
+        "question_text": "National values promoted under Nigerian citizenship education include all EXCEPT:",
+        "questionText": "National values promoted under Nigerian citizenship education include all EXCEPT:",
+        "options": [
+          "Patriotism",
+          "Social justice",
+          "Ethnic favoritism",
+          "Respect for human dignity"
+        ],
+        "correct_option_index": 2,
+        "correctOptionIndex": 2,
+        "explanation": "Ethnic favoritism contradicts the national values of fairness and unity that citizenship education promotes."
+      }
+    ],
+    "answers": {},
+    "status": "IN_PROGRESS",
+    "startedAt": "2026-08-31T16:01:28.561Z",
+    "expiresAt": "2026-08-31T16:31:28.561Z"
+  },
+  {
+    "id": "54ff5202-0b74-4691-8b75-2db9529b2ee7",
+    "userId": "6017f36c-01dc-4395-9124-a4e78c521f3d",
+    "courseId": "e0f57d0f-e2ef-48db-8b6c-c7ac3455eb14",
+    "courseCode": "GST101",
+    "courseTitle": "Use of English & Communication Skills",
+    "questions": [
+      {
+        "id": "1ab637de-bfe6-42ea-a1dd-09e24f5445b8",
+        "question_text": "Which of the following is NOT a part of speech?",
+        "questionText": "Which of the following is NOT a part of speech?",
+        "options": [
+          "Noun",
+          "Verb",
+          "Sentence",
+          "Adjective"
+        ],
+        "selected_option_index": 0,
+        "selectedOptionIndex": 0,
+        "correct_option_index": 2,
+        "correctOptionIndex": 2,
+        "is_correct": false,
+        "isCorrect": false,
+        "explanation": "A sentence is a grammatical unit built from parts of speech, not a part of speech itself."
+      },
+      {
+        "id": "03be1ab1-7bac-4063-ad14-a2755071cc45",
+        "question_text": "Choose the correct plural form of \"child\".",
+        "questionText": "Choose the correct plural form of \"child\".",
+        "options": [
+          "childs",
+          "childes",
+          "children",
+          "childrens"
+        ],
+        "selected_option_index": 1,
+        "selectedOptionIndex": 1,
+        "correct_option_index": 2,
+        "correctOptionIndex": 2,
+        "is_correct": false,
+        "isCorrect": false,
+        "explanation": "\"Children\" is the irregular plural of \"child\"."
+      },
+      {
+        "id": "a8afd62c-0312-49f8-ba81-9dbbde35e0ba",
+        "question_text": "Identify the tense: \"She has finished her assignment.\"",
+        "questionText": "Identify the tense: \"She has finished her assignment.\"",
+        "options": [
+          "Simple past",
+          "Present perfect",
+          "Past continuous",
+          "Future perfect"
+        ],
+        "selected_option_index": 1,
+        "selectedOptionIndex": 1,
+        "correct_option_index": 1,
+        "correctOptionIndex": 1,
+        "is_correct": true,
+        "isCorrect": true,
+        "explanation": "\"Has finished\" uses has/have + past participle, the present perfect structure."
+      },
+      {
+        "id": "a355cbb5-2c3f-4d45-8c66-9648cfc2c87d",
+        "question_text": "Which word is a synonym of \"abundant\"?",
+        "questionText": "Which word is a synonym of \"abundant\"?",
+        "options": [
+          "Scarce",
+          "Plentiful",
+          "Meager",
+          "Rare"
+        ],
+        "selected_option_index": 2,
+        "selectedOptionIndex": 2,
+        "correct_option_index": 1,
+        "correctOptionIndex": 1,
+        "is_correct": false,
+        "isCorrect": false,
+        "explanation": "\"Plentiful\" means existing in large quantities, matching \"abundant\"."
+      },
+      {
+        "id": "9253063c-507c-4265-ac71-e6dbb3462a34",
+        "question_text": "Which word is an antonym of \"benevolent\"?",
+        "questionText": "Which word is an antonym of \"benevolent\"?",
+        "options": [
+          "Kind",
+          "Generous",
+          "Malevolent",
+          "Charitable"
+        ],
+        "selected_option_index": 3,
+        "selectedOptionIndex": 3,
+        "correct_option_index": 2,
+        "correctOptionIndex": 2,
+        "is_correct": false,
+        "isCorrect": false,
+        "explanation": "\"Malevolent\" means having ill will, the opposite of \"benevolent\" (kind-hearted)."
+      },
+      {
+        "id": "1d399b97-5957-44ec-b547-28182b12bf80",
+        "question_text": "Choose the correctly spelled word.",
+        "questionText": "Choose the correctly spelled word.",
+        "options": [
+          "Recieve",
+          "Receive",
+          "Receeve",
+          "Receve"
+        ],
+        "selected_option_index": 3,
+        "selectedOptionIndex": 3,
+        "correct_option_index": 1,
+        "correctOptionIndex": 1,
+        "is_correct": false,
+        "isCorrect": false,
+        "explanation": "The correct spelling follows \"i before e except after c\": Receive."
+      },
+      {
+        "id": "60545712-5102-4a8f-bb5b-fa5b93dcf029",
+        "question_text": "\"The team ___ playing well this season.\" Choose the correct verb.",
+        "questionText": "\"The team ___ playing well this season.\" Choose the correct verb.",
+        "options": [
+          "is",
+          "are",
+          "were",
+          "have"
+        ],
+        "selected_option_index": 2,
+        "selectedOptionIndex": 2,
+        "correct_option_index": 0,
+        "correctOptionIndex": 0,
+        "is_correct": false,
+        "isCorrect": false,
+        "explanation": "\"Team\" is a collective noun treated as a single unit here, taking the singular verb \"is\"."
+      },
+      {
+        "id": "a3197bd6-918d-45d9-804e-7a29a49971ea",
+        "question_text": "Which of these is a compound sentence?",
+        "questionText": "Which of these is a compound sentence?",
+        "options": [
+          "I went to the market.",
+          "Although it rained, we went out.",
+          "I went to the market, and I bought some fruits.",
+          "Going to the market."
+        ],
+        "selected_option_index": 2,
+        "selectedOptionIndex": 2,
+        "correct_option_index": 2,
+        "correctOptionIndex": 2,
+        "is_correct": true,
+        "isCorrect": true,
+        "explanation": "A compound sentence joins two independent clauses with a coordinating conjunction such as \"and\"."
+      },
+      {
+        "id": "0f18dc47-d46d-46ed-aeea-4b5312b744a5",
+        "question_text": "What figure of speech is used in \"The wind whispered through the trees\"?",
+        "questionText": "What figure of speech is used in \"The wind whispered through the trees\"?",
+        "options": [
+          "Simile",
+          "Metaphor",
+          "Personification",
+          "Hyperbole"
+        ],
+        "selected_option_index": 3,
+        "selectedOptionIndex": 3,
+        "correct_option_index": 2,
+        "correctOptionIndex": 2,
+        "is_correct": false,
+        "isCorrect": false,
+        "explanation": "Giving the wind the human ability to \"whisper\" is personification."
+      },
+      {
+        "id": "27704a77-88ab-4b07-ab48-0726c621fc3f",
+        "question_text": "What is the meaning of the idiom \"to break the ice\"?",
+        "questionText": "What is the meaning of the idiom \"to break the ice\"?",
+        "options": [
+          "To start a conversation in a social setting",
+          "To destroy something fragile",
+          "To end a relationship",
+          "To cause an argument"
+        ],
+        "selected_option_index": 3,
+        "selectedOptionIndex": 3,
+        "correct_option_index": 0,
+        "correctOptionIndex": 0,
+        "is_correct": false,
+        "isCorrect": false,
+        "explanation": "\"Break the ice\" means to ease tension and start conversation, especially with strangers."
+      },
+      {
+        "id": "2c6c60df-0dec-491b-9140-06bf99b9104c",
+        "question_text": "Which punctuation mark is used to indicate direct speech?",
+        "questionText": "Which punctuation mark is used to indicate direct speech?",
+        "options": [
+          "Comma",
+          "Quotation marks",
+          "Semicolon",
+          "Colon"
+        ],
+        "selected_option_index": 2,
+        "selectedOptionIndex": 2,
+        "correct_option_index": 1,
+        "correctOptionIndex": 1,
+        "is_correct": false,
+        "isCorrect": false,
+        "explanation": "Quotation marks enclose a speaker's exact words."
+      },
+      {
+        "id": "dd2e4cea-2ec9-4fb4-a546-761b56228807",
+        "question_text": "Identify the subject in the sentence: \"The tall man in the blue shirt smiled.\"",
+        "questionText": "Identify the subject in the sentence: \"The tall man in the blue shirt smiled.\"",
+        "options": [
+          "tall man",
+          "The tall man in the blue shirt",
+          "blue shirt",
+          "smiled"
+        ],
+        "selected_option_index": 2,
+        "selectedOptionIndex": 2,
+        "correct_option_index": 1,
+        "correctOptionIndex": 1,
+        "is_correct": false,
+        "isCorrect": false,
+        "explanation": "The complete subject is the full noun phrase performing the action: \"The tall man in the blue shirt\"."
+      },
+      {
+        "id": "c9949f9e-f437-4293-926c-d633009c2149",
+        "question_text": "Which sentence is grammatically correct?",
+        "questionText": "Which sentence is grammatically correct?",
+        "options": [
+          "Neither of the boys were present.",
+          "Neither of the boys was present.",
+          "Neither of the boys is were present.",
+          "Neither of the boys being present."
+        ],
+        "selected_option_index": 2,
+        "selectedOptionIndex": 2,
+        "correct_option_index": 1,
+        "correctOptionIndex": 1,
+        "is_correct": false,
+        "isCorrect": false,
+        "explanation": "\"Neither\" is singular and takes a singular verb: \"was\"."
+      },
+      {
+        "id": "20eaaa3d-c4ea-4a88-85cc-629e5e7964f7",
+        "question_text": "Which type of communication involves gestures, facial expressions, and body posture?",
+        "questionText": "Which type of communication involves gestures, facial expressions, and body posture?",
+        "options": [
+          "Verbal communication",
+          "Written communication",
+          "Non-verbal communication",
+          "Formal communication"
+        ],
+        "selected_option_index": 3,
+        "selectedOptionIndex": 3,
+        "correct_option_index": 2,
+        "correctOptionIndex": 2,
+        "is_correct": false,
+        "isCorrect": false,
+        "explanation": "Non-verbal communication conveys meaning without spoken or written words."
+      },
+      {
+        "id": "e9de761a-2881-4b87-af8a-2112c2c58e11",
+        "question_text": "Which of the following is a proper noun?",
+        "questionText": "Which of the following is a proper noun?",
+        "options": [
+          "city",
+          "river",
+          "Lagos",
+          "teacher"
+        ],
+        "selected_option_index": 2,
+        "selectedOptionIndex": 2,
+        "correct_option_index": 2,
+        "correctOptionIndex": 2,
+        "is_correct": true,
+        "isCorrect": true,
+        "explanation": "\"Lagos\" names a specific place, making it a proper noun (capitalized)."
+      },
+      {
+        "id": "63cb6fe1-70d2-45f5-b62a-ff74ce7ccfd3",
+        "question_text": "Choose the correct comparative form: \"This book is ___ than that one.\"",
+        "questionText": "Choose the correct comparative form: \"This book is ___ than that one.\"",
+        "options": [
+          "interesting",
+          "more interesting",
+          "most interesting",
+          "interestinger"
+        ],
+        "selected_option_index": 3,
+        "selectedOptionIndex": 3,
+        "correct_option_index": 1,
+        "correctOptionIndex": 1,
+        "is_correct": false,
+        "isCorrect": false,
+        "explanation": "Multi-syllable adjectives form comparatives with \"more\", not a suffix."
+      },
+      {
+        "id": "76d79703-9823-48f6-b3a3-963fde3049ba",
+        "question_text": "What is the main purpose of a topic sentence in a paragraph?",
+        "questionText": "What is the main purpose of a topic sentence in a paragraph?",
+        "options": [
+          "To conclude the paragraph",
+          "To state the main idea of the paragraph",
+          "To provide examples",
+          "To list references"
+        ],
+        "selected_option_index": 1,
+        "selectedOptionIndex": 1,
+        "correct_option_index": 1,
+        "correctOptionIndex": 1,
+        "is_correct": true,
+        "isCorrect": true,
+        "explanation": "A topic sentence introduces and summarizes the paragraph's central idea."
+      },
+      {
+        "id": "0d2b60e9-cc47-43a8-98bc-f6b928db6fad",
+        "question_text": "Which of the following is an example of a homophone pair?",
+        "questionText": "Which of the following is an example of a homophone pair?",
+        "options": [
+          "big/large",
+          "their/there",
+          "happy/sad",
+          "run/ran"
+        ],
+        "selected_option_index": 0,
+        "selectedOptionIndex": 0,
+        "correct_option_index": 1,
+        "correctOptionIndex": 1,
+        "is_correct": false,
+        "isCorrect": false,
+        "explanation": "\"Their\" and \"there\" sound alike but differ in spelling and meaning, making them homophones."
+      },
+      {
+        "id": "84d48c24-6961-4df9-8bf0-8c9c00856958",
+        "question_text": "In formal letter writing, what is the correct way to close a letter that begins with \"Dear Sir/Madam\"?",
+        "questionText": "In formal letter writing, what is the correct way to close a letter that begins with \"Dear Sir/Madam\"?",
+        "options": [
+          "Best wishes",
+          "Yours sincerely",
+          "Yours faithfully",
+          "Cheers"
+        ],
+        "selected_option_index": 1,
+        "selectedOptionIndex": 1,
+        "correct_option_index": 2,
+        "correctOptionIndex": 2,
+        "is_correct": false,
+        "isCorrect": false,
+        "explanation": "\"Yours faithfully\" is used when the recipient's name is unknown, as with \"Dear Sir/Madam\"."
+      },
+      {
+        "id": "a6ea685a-6ede-46fa-acb0-b122db1d54cc",
+        "question_text": "Which word correctly completes the sentence: \"Each of the students ___ given a textbook.\"?",
+        "questionText": "Which word correctly completes the sentence: \"Each of the students ___ given a textbook.\"?",
+        "options": [
+          "were",
+          "was",
+          "have been",
+          "are"
+        ],
+        "selected_option_index": 2,
+        "selectedOptionIndex": 2,
+        "correct_option_index": 1,
+        "correctOptionIndex": 1,
+        "is_correct": false,
+        "isCorrect": false,
+        "explanation": "\"Each\" is singular and takes a singular verb: \"was\"."
+      },
+      {
+        "id": "b880335b-33f5-4303-9311-b3d41e0b5955",
+        "question_text": "What is the term for words that sound the same but have different meanings and spellings?",
+        "questionText": "What is the term for words that sound the same but have different meanings and spellings?",
+        "options": [
+          "Synonyms",
+          "Antonyms",
+          "Homophones",
+          "Homonyms"
+        ],
+        "selected_option_index": 3,
+        "selectedOptionIndex": 3,
+        "correct_option_index": 2,
+        "correctOptionIndex": 2,
+        "is_correct": false,
+        "isCorrect": false,
+        "explanation": "Homophones sound alike but are spelled differently and mean different things."
+      },
+      {
+        "id": "adce3f35-ace2-4477-80a8-f65d0d35771e",
+        "question_text": "Which of these is an example of alliteration?",
+        "questionText": "Which of these is an example of alliteration?",
+        "options": [
+          "She sells seashells by the seashore",
+          "Time is money",
+          "The classroom was a zoo",
+          "It's raining cats and dogs"
+        ],
+        "selected_option_index": 3,
+        "selectedOptionIndex": 3,
+        "correct_option_index": 0,
+        "correctOptionIndex": 0,
+        "is_correct": false,
+        "isCorrect": false,
+        "explanation": "Alliteration is the repetition of initial consonant sounds, as in the repeated \"s\" sound."
+      },
+      {
+        "id": "7a57b283-4928-4c61-951f-e20d7ab7cacb",
+        "question_text": "Choose the sentence with correct subject-verb agreement.",
+        "questionText": "Choose the sentence with correct subject-verb agreement.",
+        "options": [
+          "The list of items are on the table.",
+          "The list of items is on the table.",
+          "The list of items were on the table.",
+          "The list of items being on the table."
+        ],
+        "selected_option_index": 2,
+        "selectedOptionIndex": 2,
+        "correct_option_index": 1,
+        "correctOptionIndex": 1,
+        "is_correct": false,
+        "isCorrect": false,
+        "explanation": "The subject is \"list\" (singular), not \"items\", so the verb must be \"is\"."
+      },
+      {
+        "id": "5c86e133-41d5-4fbb-8847-953c2a6e0385",
+        "question_text": "What is the function of an adverb in a sentence?",
+        "questionText": "What is the function of an adverb in a sentence?",
+        "options": [
+          "To name a person, place or thing",
+          "To modify a verb, adjective or another adverb",
+          "To connect clauses",
+          "To show possession"
+        ],
+        "selected_option_index": 2,
+        "selectedOptionIndex": 2,
+        "correct_option_index": 1,
+        "correctOptionIndex": 1,
+        "is_correct": false,
+        "isCorrect": false,
+        "explanation": "Adverbs describe or modify verbs, adjectives, or other adverbs."
+      },
+      {
+        "id": "753b7f1a-559d-4996-8c53-859e30166c5f",
+        "question_text": "Which of the following best describes \"skimming\" as a reading skill?",
+        "questionText": "Which of the following best describes \"skimming\" as a reading skill?",
+        "options": [
+          "Reading every word carefully",
+          "Reading quickly to get the general idea",
+          "Reading aloud",
+          "Reading to memorize"
+        ],
+        "selected_option_index": 2,
+        "selectedOptionIndex": 2,
+        "correct_option_index": 1,
+        "correctOptionIndex": 1,
+        "is_correct": false,
+        "isCorrect": false,
+        "explanation": "Skimming means reading rapidly to grasp the overall gist of a text."
+      }
+    ],
+    "answers": {
+      "0": 0,
+      "1": 1,
+      "2": 1,
+      "3": 2,
+      "4": 3,
+      "5": 2,
+      "6": 2,
+      "7": 3,
+      "8": 3,
+      "9": 2,
+      "10": 2,
+      "11": 2,
+      "12": 3,
+      "13": 2,
+      "14": 3,
+      "15": 1,
+      "16": 0,
+      "17": 1,
+      "18": 2,
+      "19": 3,
+      "20": 3,
+      "21": 2,
+      "22": 2,
+      "23": 2,
+      "24": 2,
+      "1ab637de-bfe6-42ea-a1dd-09e24f5445b8": 0,
+      "03be1ab1-7bac-4063-ad14-a2755071cc45": 1,
+      "a8afd62c-0312-49f8-ba81-9dbbde35e0ba": 1,
+      "a355cbb5-2c3f-4d45-8c66-9648cfc2c87d": 2,
+      "1d399b97-5957-44ec-b547-28182b12bf80": 3,
+      "60545712-5102-4a8f-bb5b-fa5b93dcf029": 2,
+      "a3197bd6-918d-45d9-804e-7a29a49971ea": 2,
+      "0f18dc47-d46d-46ed-aeea-4b5312b744a5": 3,
+      "2c6c60df-0dec-491b-9140-06bf99b9104c": 2,
+      "0d2b60e9-cc47-43a8-98bc-f6b928db6fad": 0,
+      "27704a77-88ab-4b07-ab48-0726c621fc3f": 3,
+      "dd2e4cea-2ec9-4fb4-a546-761b56228807": 2,
+      "c9949f9e-f437-4293-926c-d633009c2149": 2,
+      "20eaaa3d-c4ea-4a88-85cc-629e5e7964f7": 3,
+      "e9de761a-2881-4b87-af8a-2112c2c58e11": 2,
+      "63cb6fe1-70d2-45f5-b62a-ff74ce7ccfd3": 3,
+      "76d79703-9823-48f6-b3a3-963fde3049ba": 1,
+      "84d48c24-6961-4df9-8bf0-8c9c00856958": 1,
+      "a6ea685a-6ede-46fa-acb0-b122db1d54cc": 2,
+      "b880335b-33f5-4303-9311-b3d41e0b5955": 3,
+      "adce3f35-ace2-4477-80a8-f65d0d35771e": 3,
+      "7a57b283-4928-4c61-951f-e20d7ab7cacb": 2,
+      "5c86e133-41d5-4fbb-8847-953c2a6e0385": 2,
+      "753b7f1a-559d-4996-8c53-859e30166c5f": 2
+    },
+    "status": "GRADED",
+    "startedAt": "2026-08-31T16:02:08.563Z",
+    "expiresAt": "2026-08-31T16:32:08.563Z",
+    "remainingSeconds": 1760,
+    "currentIndex": 21,
+    "score": 4,
+    "correctAnswers": 4,
+    "incorrectAnswers": 21,
+    "unanswered": 0,
+    "totalQuestions": 25,
+    "scorePercent": 16,
+    "passed": false,
+    "timeTakenSeconds": 44,
+    "submittedAt": "2026-08-31T16:02:54.755Z"
+  },
+  {
+    "id": "7c713a59-f78f-48c2-8f30-ff752363ba96",
+    "userId": "6017f36c-01dc-4395-9124-a4e78c521f3d",
+    "courseId": "775f378b-53be-464f-a926-a6332e1f6684",
+    "courseCode": "GST102",
+    "courseTitle": "Nigerian Peoples & Culture",
+    "questions": [
+      {
+        "id": "63a3b3e0-55c5-490a-8a35-cae04e938153",
+        "question_text": "In what year did Nigeria gain independence from British colonial rule?",
+        "questionText": "In what year did Nigeria gain independence from British colonial rule?",
+        "options": [
+          "1957",
+          "1960",
+          "1963",
+          "1966"
+        ],
+        "selected_option_index": 1,
+        "selectedOptionIndex": 1,
+        "correct_option_index": 1,
+        "correctOptionIndex": 1,
+        "is_correct": true,
+        "isCorrect": true,
+        "explanation": "Nigeria became independent on 1 October 1960."
+      },
+      {
+        "id": "62577189-3a5a-4d72-ab48-86a2dbc2c7db",
+        "question_text": "Nigeria became a republic in which year?",
+        "questionText": "Nigeria became a republic in which year?",
+        "options": [
+          "1960",
+          "1963",
+          "1966",
+          "1970"
+        ],
+        "selected_option_index": null,
+        "selectedOptionIndex": null,
+        "correct_option_index": 1,
+        "correctOptionIndex": 1,
+        "is_correct": false,
+        "isCorrect": false,
+        "explanation": "Nigeria became a republic in 1963, with Nnamdi Azikiwe as the first President."
+      },
+      {
+        "id": "8f6e8992-0e0f-4eb9-8c40-9b27ebc7f3e5",
+        "question_text": "Who was Nigeria's first President?",
+        "questionText": "Who was Nigeria's first President?",
+        "options": [
+          "Tafawa Balewa",
+          "Nnamdi Azikiwe",
+          "Yakubu Gowon",
+          "Olusegun Obasanjo"
+        ],
+        "selected_option_index": null,
+        "selectedOptionIndex": null,
+        "correct_option_index": 1,
+        "correctOptionIndex": 1,
+        "is_correct": false,
+        "isCorrect": false,
+        "explanation": "Nnamdi Azikiwe became Nigeria's first President when it became a republic in 1963; Balewa was Prime Minister."
+      },
+      {
+        "id": "36e67515-8e7c-4996-82d0-fef6f730b6b5",
+        "question_text": "The amalgamation of the Northern and Southern Protectorates of Nigeria took place in which year?",
+        "questionText": "The amalgamation of the Northern and Southern Protectorates of Nigeria took place in which year?",
+        "options": [
+          "1900",
+          "1914",
+          "1922",
+          "1954"
+        ],
+        "selected_option_index": null,
+        "selectedOptionIndex": null,
+        "correct_option_index": 1,
+        "correctOptionIndex": 1,
+        "is_correct": false,
+        "isCorrect": false,
+        "explanation": "Lord Lugard amalgamated the Northern and Southern Protectorates into one entity in 1914."
+      },
+      {
+        "id": "f5cdc560-f1b7-4f1a-9ec6-d7830bcc5c19",
+        "question_text": "Which British colonial administrator is credited with the amalgamation of Nigeria in 1914?",
+        "questionText": "Which British colonial administrator is credited with the amalgamation of Nigeria in 1914?",
+        "options": [
+          "Lord Lugard",
+          "Lord Harcourt",
+          "Sir Hugh Clifford",
+          "Sir Bernard Bourdillon"
+        ],
+        "selected_option_index": null,
+        "selectedOptionIndex": null,
+        "correct_option_index": 0,
+        "correctOptionIndex": 0,
+        "is_correct": false,
+        "isCorrect": false,
+        "explanation": "Lord Frederick Lugard oversaw the 1914 amalgamation as Governor-General."
+      },
+      {
+        "id": "a2732f10-eaf5-4cdb-86b9-82528b6bb7cd",
+        "question_text": "How many states currently make up the Federal Republic of Nigeria (excluding the FCT)?",
+        "questionText": "How many states currently make up the Federal Republic of Nigeria (excluding the FCT)?",
+        "options": [
+          "30",
+          "33",
+          "36",
+          "37"
+        ],
+        "selected_option_index": null,
+        "selectedOptionIndex": null,
+        "correct_option_index": 2,
+        "correctOptionIndex": 2,
+        "is_correct": false,
+        "isCorrect": false,
+        "explanation": "Nigeria has 36 states plus the Federal Capital Territory."
+      },
+      {
+        "id": "42cb4376-e5c4-4c08-9d66-cd30f0d2823b",
+        "question_text": "Which city serves as the Federal Capital Territory of Nigeria?",
+        "questionText": "Which city serves as the Federal Capital Territory of Nigeria?",
+        "options": [
+          "Lagos",
+          "Kaduna",
+          "Abuja",
+          "Enugu"
+        ],
+        "selected_option_index": null,
+        "selectedOptionIndex": null,
+        "correct_option_index": 2,
+        "correctOptionIndex": 2,
+        "is_correct": false,
+        "isCorrect": false,
+        "explanation": "Abuja became Nigeria's federal capital in 1991, replacing Lagos."
+      },
+      {
+        "id": "3c7ba139-0635-424c-a565-a67f6f689353",
+        "question_text": "Which of these is one of Nigeria's three major ethnic groups?",
+        "questionText": "Which of these is one of Nigeria's three major ethnic groups?",
+        "options": [
+          "Tiv",
+          "Yoruba",
+          "Ijaw",
+          "Efik"
+        ],
+        "selected_option_index": null,
+        "selectedOptionIndex": null,
+        "correct_option_index": 1,
+        "correctOptionIndex": 1,
+        "is_correct": false,
+        "isCorrect": false,
+        "explanation": "Hausa-Fulani, Yoruba, and Igbo are widely regarded as Nigeria's three largest ethnic groups."
+      },
+      {
+        "id": "f2ca2f6f-40cc-4e6e-be7d-a057e2a73bc7",
+        "question_text": "The Sokoto Caliphate was founded following the jihad led by which leader?",
+        "questionText": "The Sokoto Caliphate was founded following the jihad led by which leader?",
+        "options": [
+          "Usman dan Fodio",
+          "Muhammadu Bello",
+          "Shehu Ahmadu",
+          "Al-Kanemi"
+        ],
+        "selected_option_index": null,
+        "selectedOptionIndex": null,
+        "correct_option_index": 0,
+        "correctOptionIndex": 0,
+        "is_correct": false,
+        "isCorrect": false,
+        "explanation": "Usman dan Fodio led the early 19th-century jihad that established the Sokoto Caliphate."
+      },
+      {
+        "id": "f1f5ddef-bc53-42da-b21a-0bcc8966b0c6",
+        "question_text": "The ancient Benin Kingdom was renowned for its skill in which craft?",
+        "questionText": "The ancient Benin Kingdom was renowned for its skill in which craft?",
+        "options": [
+          "Pottery",
+          "Bronze casting",
+          "Weaving",
+          "Leatherworking"
+        ],
+        "selected_option_index": null,
+        "selectedOptionIndex": null,
+        "correct_option_index": 1,
+        "correctOptionIndex": 1,
+        "is_correct": false,
+        "isCorrect": false,
+        "explanation": "The Benin Kingdom is famed worldwide for its intricate bronze and brass castings."
+      },
+      {
+        "id": "e066c9be-b779-4a81-8c39-d93d0bef9cc2",
+        "question_text": "Which pre-colonial Nigerian empire was centered around Lake Chad?",
+        "questionText": "Which pre-colonial Nigerian empire was centered around Lake Chad?",
+        "options": [
+          "Oyo Empire",
+          "Benin Empire",
+          "Kanem-Bornu Empire",
+          "Nupe Kingdom"
+        ],
+        "selected_option_index": null,
+        "selectedOptionIndex": null,
+        "correct_option_index": 2,
+        "correctOptionIndex": 2,
+        "is_correct": false,
+        "isCorrect": false,
+        "explanation": "The Kanem-Bornu Empire was located in the Lake Chad basin region."
+      },
+      {
+        "id": "7724482d-53ca-4191-9b4d-35913e4e78c6",
+        "question_text": "Nigeria operates which type of government system?",
+        "questionText": "Nigeria operates which type of government system?",
+        "options": [
+          "Unitary",
+          "Federal",
+          "Confederal",
+          "Monarchy"
+        ],
+        "selected_option_index": null,
+        "selectedOptionIndex": null,
+        "correct_option_index": 1,
+        "correctOptionIndex": 1,
+        "is_correct": false,
+        "isCorrect": false,
+        "explanation": "Nigeria is a federation of states and a Federal Capital Territory under a federal system."
+      },
+      {
+        "id": "055e7170-d032-480e-891f-0bc413e94cc8",
+        "question_text": "How many geopolitical zones is Nigeria divided into?",
+        "questionText": "How many geopolitical zones is Nigeria divided into?",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
+        "selected_option_index": null,
+        "selectedOptionIndex": null,
+        "correct_option_index": 2,
+        "correctOptionIndex": 2,
+        "is_correct": false,
+        "isCorrect": false,
+        "explanation": "Nigeria is commonly divided into six geopolitical zones: North West, North East, North Central, South West, South East, and South South."
+      },
+      {
+        "id": "f3d0b718-f13b-4fcf-94c0-5c9879b76dca",
+        "question_text": "Which geopolitical zone is Lagos State located in?",
+        "questionText": "Which geopolitical zone is Lagos State located in?",
+        "options": [
+          "North Central",
+          "South West",
+          "South South",
+          "South East"
+        ],
+        "selected_option_index": null,
+        "selectedOptionIndex": null,
+        "correct_option_index": 1,
+        "correctOptionIndex": 1,
+        "is_correct": false,
+        "isCorrect": false,
+        "explanation": "Lagos State is part of the South West geopolitical zone."
+      },
+      {
+        "id": "0c9c002c-602a-4bbe-84b1-112ccd1f75da",
+        "question_text": "The traditional ruler of the Yoruba people of Oyo is known by which title?",
+        "questionText": "The traditional ruler of the Yoruba people of Oyo is known by which title?",
+        "options": [
+          "Emir",
+          "Obi",
+          "Alaafin",
+          "Oba of Benin"
+        ],
+        "selected_option_index": null,
+        "selectedOptionIndex": null,
+        "correct_option_index": 2,
+        "correctOptionIndex": 2,
+        "is_correct": false,
+        "isCorrect": false,
+        "explanation": "The Alaafin is the traditional title of the ruler of the Oyo Kingdom."
+      },
+      {
+        "id": "85c518a2-67ae-4ecc-ba2c-387c73c1075b",
+        "question_text": "What is the traditional title of the paramount ruler of the Hausa-Fulani emirates?",
+        "questionText": "What is the traditional title of the paramount ruler of the Hausa-Fulani emirates?",
+        "options": [
+          "Oba",
+          "Emir",
+          "Alaafin",
+          "Eze"
+        ],
+        "selected_option_index": null,
+        "selectedOptionIndex": null,
+        "correct_option_index": 1,
+        "correctOptionIndex": 1,
+        "is_correct": false,
+        "isCorrect": false,
+        "explanation": "\"Emir\" is the traditional title used across the Hausa-Fulani emirates of Northern Nigeria."
+      },
+      {
+        "id": "4302c5e4-62c1-4ade-9753-eb0f778ab87a",
+        "question_text": "What is the title of the traditional ruler among the Igbo people in many communities?",
+        "questionText": "What is the title of the traditional ruler among the Igbo people in many communities?",
+        "options": [
+          "Oba",
+          "Igwe/Eze",
+          "Emir",
+          "Attah"
+        ],
+        "selected_option_index": null,
+        "selectedOptionIndex": null,
+        "correct_option_index": 1,
+        "correctOptionIndex": 1,
+        "is_correct": false,
+        "isCorrect": false,
+        "explanation": "\"Igwe\" or \"Eze\" are common traditional titles used in many Igbo communities."
+      },
+      {
+        "id": "7624465b-cfc3-455b-8120-601fb9bfc291",
+        "question_text": "Which of the following is NOT one of Nigeria's major indigenous languages taught under the National Policy on Education?",
+        "questionText": "Which of the following is NOT one of Nigeria's major indigenous languages taught under the National Policy on Education?",
+        "options": [
+          "Hausa",
+          "Yoruba",
+          "Igbo",
+          "French"
+        ],
+        "selected_option_index": null,
+        "selectedOptionIndex": null,
+        "correct_option_index": 3,
+        "correctOptionIndex": 3,
+        "is_correct": false,
+        "isCorrect": false,
+        "explanation": "French is taught as a foreign language in Nigeria, not an indigenous Nigerian language."
+      },
+      {
+        "id": "c14589cb-68ec-435b-8f54-10702f5803f9",
+        "question_text": "The concept of \"unity in diversity\" in Nigerian culture refers to:",
+        "questionText": "The concept of \"unity in diversity\" in Nigerian culture refers to:",
+        "options": [
+          "The dominance of one culture over others",
+          "The peaceful coexistence and cooperation of Nigeria's diverse ethnic groups",
+          "The elimination of cultural differences",
+          "The isolation of ethnic groups from each other"
+        ],
+        "selected_option_index": null,
+        "selectedOptionIndex": null,
+        "correct_option_index": 1,
+        "correctOptionIndex": 1,
+        "is_correct": false,
+        "isCorrect": false,
+        "explanation": "\"Unity in diversity\" describes different groups living and working together despite their cultural differences."
+      },
+      {
+        "id": "8b5e44e7-1b9b-422b-bc95-a374a96aea5c",
+        "question_text": "Which of these Nigerian festivals is associated with the Igbo people?",
+        "questionText": "Which of these Nigerian festivals is associated with the Igbo people?",
+        "options": [
+          "Argungu Fishing Festival",
+          "New Yam Festival (Iri Ji)",
+          "Eyo Festival",
+          "Durbar Festival"
+        ],
+        "selected_option_index": null,
+        "selectedOptionIndex": null,
+        "correct_option_index": 1,
+        "correctOptionIndex": 1,
+        "is_correct": false,
+        "isCorrect": false,
+        "explanation": "The New Yam Festival (Iri Ji) is a major Igbo harvest celebration."
+      },
+      {
+        "id": "cdddc657-a9d0-491c-a886-d67cc9620f7f",
+        "question_text": "The Eyo festival is traditionally celebrated by which group?",
+        "questionText": "The Eyo festival is traditionally celebrated by which group?",
+        "options": [
+          "Hausa people of Kano",
+          "Lagos indigenes (Yoruba/Eko)",
+          "Igbo people of Enugu",
+          "Efik people of Calabar"
+        ],
+        "selected_option_index": null,
+        "selectedOptionIndex": null,
+        "correct_option_index": 1,
+        "correctOptionIndex": 1,
+        "is_correct": false,
+        "isCorrect": false,
+        "explanation": "The Eyo festival is a traditional masquerade festival of the Lagos (Eko) indigenes."
+      },
+      {
+        "id": "d603b855-e9af-41a2-8591-29385083bfed",
+        "question_text": "The Durbar festival, featuring horse parades, is most associated with which region?",
+        "questionText": "The Durbar festival, featuring horse parades, is most associated with which region?",
+        "options": [
+          "South West",
+          "South East",
+          "Northern Nigeria",
+          "South South"
+        ],
+        "selected_option_index": null,
+        "selectedOptionIndex": null,
+        "correct_option_index": 2,
+        "correctOptionIndex": 2,
+        "is_correct": false,
+        "isCorrect": false,
+        "explanation": "Durbar festivals, with elaborate horse displays, are a Northern Nigerian tradition tied to Sallah celebrations."
+      },
+      {
+        "id": "35155b74-f915-448e-8120-79b8b9365629",
+        "question_text": "What was the name of the civil war fought in Nigeria between 1967 and 1970?",
+        "questionText": "What was the name of the civil war fought in Nigeria between 1967 and 1970?",
+        "options": [
+          "The Biafran War",
+          "The Kano Riots",
+          "The Aba Women's Riot",
+          "The Niger Delta Conflict"
+        ],
+        "selected_option_index": null,
+        "selectedOptionIndex": null,
+        "correct_option_index": 0,
+        "correctOptionIndex": 0,
+        "is_correct": false,
+        "isCorrect": false,
+        "explanation": "The Nigerian Civil War (1967-1970) is also known as the Biafran War."
+      },
+      {
+        "id": "1f6e3c9e-75a0-4f7b-beeb-fce0a11d1c29",
+        "question_text": "The Aba Women's Riot of 1929 was primarily a protest against:",
+        "questionText": "The Aba Women's Riot of 1929 was primarily a protest against:",
+        "options": [
+          "Colonial taxation policies",
+          "Slave trade",
+          "Land ownership laws",
+          "Educational reforms"
+        ],
+        "selected_option_index": null,
+        "selectedOptionIndex": null,
+        "correct_option_index": 0,
+        "correctOptionIndex": 0,
+        "is_correct": false,
+        "isCorrect": false,
+        "explanation": "Igbo and Ibibio women protested against colonial taxation and the warrant chief system in 1929."
+      },
+      {
+        "id": "6a063ec2-4f57-427f-828f-aec9dca0fd08",
+        "question_text": "National values promoted under Nigerian citizenship education include all EXCEPT:",
+        "questionText": "National values promoted under Nigerian citizenship education include all EXCEPT:",
+        "options": [
+          "Patriotism",
+          "Social justice",
+          "Ethnic favoritism",
+          "Respect for human dignity"
+        ],
+        "selected_option_index": null,
+        "selectedOptionIndex": null,
+        "correct_option_index": 2,
+        "correctOptionIndex": 2,
+        "is_correct": false,
+        "isCorrect": false,
+        "explanation": "Ethnic favoritism contradicts the national values of fairness and unity that citizenship education promotes."
+      }
+    ],
+    "answers": {
+      "0": 1,
+      "63a3b3e0-55c5-490a-8a35-cae04e938153": 1
+    },
+    "status": "GRADED",
+    "startedAt": "2026-08-31T16:05:36.762Z",
+    "expiresAt": "2026-08-31T16:35:36.762Z",
+    "score": 1,
+    "correctAnswers": 1,
+    "incorrectAnswers": 0,
+    "unanswered": 24,
+    "totalQuestions": 25,
+    "scorePercent": 4,
+    "passed": false,
+    "timeTakenSeconds": 7,
+    "submittedAt": "2026-08-31T16:05:45.615Z"
+  }
+]

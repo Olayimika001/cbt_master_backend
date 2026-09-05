@@ -1,0 +1,47 @@
+{
+  "name": "cbt-master-backend",
+  "version": "1.0.0",
+  "description": "CBT Master Backend REST API",
+  "main": "dist/app.js",
+  "type": "module",
+  "scripts": {
+    "build": "prisma generate && tsc",
+    "start": "node dist/app.js",
+    "dev": "prisma generate && tsc && node dist/app.js",
+    "seed": "npm run build && node dist/lib/seed.js",
+    "postinstall": "prisma generate"
+  },
+  "prisma": {
+    "seed": "node dist/lib/seed.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Olayimika001/cbt_master/issues"
+  },
+  "homepage": "https://github.com/Olayimika001/cbt_master#readme",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.112.4",
+    "axios": "^1.20.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.6.2",
+    "helmet": "^8.3.0",
+    "pino": "^10.3.1",
+    "pino-http": "^11.0.0",
+    "uuid": "^14.0.2",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@prisma/client": "^6.19.3",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.4.0",
+    "@types/uuid": "^10.0.0",
+    "prisma": "^6.19.3",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.9.3"
+  }
+}
